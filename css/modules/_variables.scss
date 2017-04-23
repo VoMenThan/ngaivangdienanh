@@ -55,20 +55,6 @@ $break-375 : 375px;
 $break-374 : 374px;
 $break-320 : 320px;
 
-//----- END VARIABLES
-
-@for $i from 1 through 150 {
-  .pl-#{$i} {
-    padding-left: #{$i}px;
-  }
-  .mt-#{$i} {
-    margin-top: #{$i}px;
-  }
-}
-//----- END PLACEHOLDER
-
-
-
 //----- MIXIN
 @mixin retinaDisplay($url, $file, $fileX2: $file, $color:'transparent'){
   background: url('#{$url}#{$file}') center center no-repeat #{$color};
