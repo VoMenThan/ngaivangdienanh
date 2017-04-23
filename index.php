@@ -41,7 +41,7 @@
             </div>
         </div>
         <nav>
-            <ul class="menu-top">
+            <ul class="menu-top-scroll">
                 <li class="menu-detail">
                     <a href="">Giới thiệu</a>
                 </li>
