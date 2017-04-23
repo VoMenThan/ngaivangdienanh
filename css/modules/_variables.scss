@@ -1,5 +1,5 @@
-$main: 'HelveticaNeue-Light', Helvetica, arial,sans-serif;
-$main-b: 'HelveticaNeue-Bold', Helvetica, arial,sans-serif;
+$main: 'UVF FuturaLT', Helvetica, arial,sans-serif;
+$main-r: 'UVF Aleo-Regular', Helvetica, arial,sans-serif;
 $main-t: 'TimesNewRoman', Helvetica, arial,sans-serif;
 $main-tb: 'TimesNewRomanBold', Helvetica, arial,sans-serif;
 $main-ds: 'DroidSerif', Helvetica, arial,sans-serif;
@@ -94,12 +94,13 @@ $break-320 : 320px;
   border-radius: $radius;
 }
 
-@mixin transition($time: 0.3s, $cubi: ease){
-  -webkit-transition: $time $cubi;
-  -moz-transition: $time $cubi;
-  -ms-transition: $time $cubi;
-  -o-transition: $time $cubi;
-  transition: $time $cubi;
+
+@mixin transition($time){
+  -webkit-transition: $time;
+  -moz-transition: $time;
+  -ms-transition: $time;
+  -o-transition: $time;
+  transition: $time;
 }
 
 @mixin transition-delay($time: 0.3s){
