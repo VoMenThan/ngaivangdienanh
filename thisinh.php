@@ -57,45 +57,14 @@
 <section>
     <article>
         <div class="content">
-            <h3>A. Đối tượng tham dự</h3>
             <p>
-                Nam Nữ công dân Việt Nam, hiện đang sinh sống tại Việt Nam hoặc nước ngoài.
-                Từ 16 tuổi trở lên.
-                Không chịu sự quản lý độc quyền bởi các công ty/đơn vị/tổ chức trong và ngoài nước (tính đến thời điểm dự thi).
-
+                Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
             </p>
-            <h3>B. Thời gian dự thi</h3>
             <p>
-                -Vòng Casting Online (15/4/2017 - 1/6/2017)
-                Vòng Casting trực tiếp (10/6/201 7 tại TPHCM và 1 7/6/2017 tại Hà Nội)
-                Vòng loại trực tiếp (1 5,1 6/7/201 7)
-                + Học lớp học diễn xuất + Học Tiếng Nói Sân Khấu.
-                + Học Hình thể.
-                + Diễn xuất trước ống kính.
-                + Tham quan 1 số đoàn phim và các hoạt động xã hội.
-                *Sau các buổi học, tất cả thí sinh sẽ phải làm 1 phim ngắn để thể hiện mình ( đây là một trong những giải nằm trong khuôn khổ của cuộc thi).
-                -Vòng Bán kết (Tháng 11/2017 tại TPHCM)
-                -Vòng chung kết (Tháng 12/2017 tại Nha Trang)
+                Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
             </p>
-            <h3>C. Cơ cấu giải thưởng</h3>
             <p>
-                Giải Ngai Vàng Gương mặt sân khấu điện ảnh triển vọng 2017
-                000 VNĐ
-                Giải Nhất: Hoa hậu điện ảnh, Nam đế điện ảnh
-                000 VNĐ
-                02 Giải Nhì: Á Hậu 1 điện ảnh, Á Vương 1 điện ảnh
-                000 VNĐ
-                02 Giải Ba: Á Hậu 2 điện ảnh, Á Vương 2 điện ảnh
-                000 VNĐ
-                Các giải thưởng phụ, mỗi giải thưởng trị giá 10.000.000 VNĐ
-                Giải diễn xuất hay nhất
-                Giải gương mặt ăn ảnh nhất
-                Giải thí sinh được yêu thích nhất
-                Giải báo chí bình chọn
-                Giải hình thể độc đáo
-                <span class="des">
-                    * Còn những giải phụ của các nhà tài trợ nếu có, sẽ được thông báo trong vòng bán kết .
-                </span>
+                Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
             </p>
         </div>
         <div class="hashtag">

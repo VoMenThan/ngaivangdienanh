@@ -51,13 +51,28 @@ html, body{
     margin-right: 20px;
   }
 }
-/*css nav*/
+/*css nav destop*/
+.nav-top.stick-scroll {
+  margin-top: 0 !important;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  background: #000000;
+  padding-bottom: 0;
+}
 nav{
   display: flex;
   padding-bottom: 50px;
-  .menu-top{
+  .btn-menu{
+    display: none;
+  }
+  .menu-top-scroll{
     display: flex;
     margin: auto;
+    .btn-close{
+      display: none;
+    }
   }
   .menu-detail{
     width: 130px;
@@ -257,7 +272,7 @@ footer{
 }
 
 /*css 320*/
-@include respond-to($break-768){
+@include respond-to($break-320){
   .intro-video {
     .my-video-dimensions{
       height:300px;
@@ -297,14 +312,75 @@ footer{
     }
     .donors{
       img{
-        width:70%;
+        padding: 0 5px;
+        height: 50px;
       }
     }
+  }
+  /*nav mobile*/
+  .stick-scroll{
+    .btn-menu{
+      top: 10px;
+    }
+  }
+  .nav-top.stick-scroll{
+    background: transparent;
+    .menu-top-scroll{
+      top:0;
+    }
+  }
+  nav{
+    position: relative;
+    height: 20px;
+    padding-bottom: 0;
+    .btn-menu{
+      display: block;
+    }
+    .menu-top-scroll {
+      display: flex;
+      margin: auto;
+      position: absolute;
+      flex-direction: column;
+      top: -20px;
+      right: 0;
+      background: #fff;
+      z-index: 999;
+      width: 100%;
+      display: none;
+      .btn-close{
+        display: block;
+        position: relative;
+        height: 12px;
+        .close-x{
+          position: absolute;
+          top: 1px;
+          right: 10px;
+        }
+      }
+    }
+    .menu-detail {
+      width: 100%;
+      a {
+        width:100%;
+        margin-left: 0;
+        height: 40px;
+      }
+    }
+  }
+  .btn-menu{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    opacity: 0.6;
+    cursor: pointer;
   }
 
 
 
-
 }
+
+
 
 

@@ -1045,13 +1045,26 @@ html, body {
   .title-bg .box-Contest {
     margin-right: 20px; }
 
-/*css nav*/
+/*css nav destop*/
+.nav-top.stick-scroll {
+  margin-top: 0 !important;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  background: #000000;
+  padding-bottom: 0; }
+
 nav {
   display: flex;
   padding-bottom: 50px; }
-  nav .menu-top {
+  nav .btn-menu {
+    display: none; }
+  nav .menu-top-scroll {
     display: flex;
     margin: auto; }
+    nav .menu-top-scroll .btn-close {
+      display: none; }
   nav .menu-detail {
     width: 130px;
     text-align: center; }
@@ -1203,7 +1216,7 @@ footer {
     footer .box-footer .contact-footer {
       width: 80%; } }
 /*css 320*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
   .intro-video .my-video-dimensions {
     height: 300px; }
 
@@ -1232,6 +1245,57 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px; }
   footer .donors img {
-    width: 70%; } }
+    padding: 0 5px;
+    height: 50px; }
+
+  /*nav mobile*/
+  .stick-scroll .btn-menu {
+    top: 10px; }
+
+  .nav-top.stick-scroll {
+    background: transparent; }
+    .nav-top.stick-scroll .menu-top-scroll {
+      top: 0; }
+
+  nav {
+    position: relative;
+    height: 20px;
+    padding-bottom: 0; }
+    nav .btn-menu {
+      display: block; }
+    nav .menu-top-scroll {
+      display: flex;
+      margin: auto;
+      position: absolute;
+      flex-direction: column;
+      top: -20px;
+      right: 0;
+      background: #fff;
+      z-index: 999;
+      width: 100%;
+      display: none; }
+      nav .menu-top-scroll .btn-close {
+        display: block;
+        position: relative;
+        height: 12px; }
+        nav .menu-top-scroll .btn-close .close-x {
+          position: absolute;
+          top: 1px;
+          right: 10px; }
+    nav .menu-detail {
+      width: 100%; }
+      nav .menu-detail a {
+        width: 100%;
+        margin-left: 0;
+        height: 40px; }
+
+  .btn-menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    opacity: 0.6;
+    cursor: pointer; } }
 
 /*# sourceMappingURL=styles.css.map */
