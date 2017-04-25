@@ -102,6 +102,11 @@ $break-320 : 320px;
   transform: rotate($rotate);
 }
 
+@mixin box-sizing($border){
+  -moz-box-sizing: $border;
+  -webkit-box-sizing: $border;
+  box-sizing: $border;
+}
 @mixin border-radius($radius: 2px){
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;

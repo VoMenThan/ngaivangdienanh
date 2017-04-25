@@ -238,6 +238,48 @@ footer{
 
 }
 
+/*form đăng ký*/
+.sign-up{
+  margin-bottom: 100px;
+}
+.form-row{
+  padding-bottom: 20px;
+  input{
+    width: 100%;
+    padding: 14px;
+    color: #a09c9b;
+    font-weight: normal;
+    font-size: 16px;
+    border: none;
+    @include box-sizing(border-box);
+  }
+  .required:after {
+    content: '*';
+  }
+  .many-text {
+    @include flex;
+    @include align-items(center);
+    .uniform{
+      width: 70px;
+      margin-right: 20px;
+    }
+    label{
+      padding-right: 10px;
+    }
+  }
+  .btn-submit{
+    background: #000;
+    padding: 15px 54px;
+    cursor: pointer;
+  }
+  div.error-message{
+    font-size: 12px;
+    color: red;
+  }
+}
+
+
+
 .clear-fix:after{
   content: '';
   display: table;
@@ -378,6 +420,18 @@ footer{
     opacity: 0.6;
     cursor: pointer;
   }
+  /*css form sigup*/
+  .form-row {
+    .many-text{
+      display: block;
+    }
+    .many-text {
+      .uniform{
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
 }
 
 
@@ -488,6 +542,8 @@ footer{
     cursor: pointer;
   }
 }
+
+
 
 
 
