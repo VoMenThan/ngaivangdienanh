@@ -10,6 +10,13 @@
     <link href="css/video-js.css" rel="stylesheet">
     <script src="js/videojs-ie8.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        html, body{
+            width: 100%;
+            background-size: 100% ;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
 <section>
@@ -40,13 +47,14 @@
                 <a href="#" class="thi-sinh img-top"></a>
             </div>
         </div>
-        <nav>
+        <nav class="nav-top">
             <ul class="menu-top-scroll">
+                <li class="menu-detail btn-close"><span class="close-x">X</span></li>
                 <li class="menu-detail">
                     <a href="">Giới thiệu</a>
                 </li>
                 <li class="menu-detail">
-                    <a href="">Thể lệ</a>
+                    <a class="active" href="">Thể lệ</a>
                 </li>
                 <li class="menu-detail">
                     <a href="">Tin tức</a>
@@ -58,6 +66,7 @@
                     <a href="">Video</a>
                 </li>
             </ul>
+            <img class="btn-menu" src="images/btn-menu.png" alt="menu">
         </nav>
     </article>
 </section>
@@ -75,6 +84,30 @@
             slidesToScroll: 1,
             autoplay: true,
             speed: 500
+        });
+        /*js menu top mobile*/
+        $('.btn-menu').click(function(event){
+            event.stopPropagation();
+            $('.menu-top-scroll').fadeIn();
+        });
+        $('.close-x').click(function () {
+            $('.menu-top-scroll').fadeOut();
+        })
+        /*js nav scroll top*/
+        function sticky_relocate() {
+            var window_top = $(window).scrollTop();
+            var div_top = $('#sticky-anchor-scroll').offset().top;
+            if (window_top > div_top) {
+                $('.nav-top').addClass('stick-scroll');
+                $('#sticky-anchor-scroll').height($('.nav-top').outerHeight());
+            } else {
+                $('.nav-top').removeClass('stick-scroll');
+                $('#sticky-anchor-scroll').height(0);
+            }
+        }
+        $(function() {
+            $(window).scroll(sticky_relocate);
+            sticky_relocate();
         });
     });
 </script>

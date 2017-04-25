@@ -1,8 +1,10 @@
 html, body{
-  height: 100%;
   font-family: $main;
-  background: url("../images/bg_img.jpg") repeat;
+  background: url("../images/bg_image.jpg") no-repeat;
+  background-size: 100% 100%;
   color: #e4cb57;
+}
+section{
 }
 /*css logo*/
 .logo-nvda{
@@ -12,19 +14,19 @@ html, body{
   }
 }
 .logo-nvda, .slider-nvda{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   .mg-aut{
     margin: auto;
     display: block;
   }
   .regular{
-    width: 600px;
-    height:300px;
+    width: 900px;
+    height:500px;
    margin: auto;
     img{
-      width: 600px;
-      height: 300px;
+      width: 900px;
+      height: 500px;
     }
   }
 }
@@ -32,7 +34,7 @@ html, body{
 .title-bg{
   @include flex;
   @include justify-content(center);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   .box-title{
     .img-top{
       display: block;
@@ -77,15 +79,15 @@ nav{
     }
   }
   .menu-detail{
-    width: 130px;
+    width: 160px;
     text-align: center;
   }
 }
 .menu-detail {
   a {
     display: block;
-    width: 130px;
-    font-size: 18px;
+    width: 160px;
+    font-size: 25px;
     margin-left: 20px;
     padding: 5px 10px;
     color: #e4cb57;
@@ -285,6 +287,45 @@ footer{
   display: table;
   clear: both;
 }
+
+/*css full hd*/
+@include respond-to($break-1440){
+
+  .logo-nvda, .slider-nvda{
+    margin-bottom: 20px;
+    .regular{
+      width: 600px;
+      height:300px;
+      margin: auto;
+      img{
+        width: 600px;
+        height: 300px;
+      }
+    }
+  }
+  .logo-nvda {
+    img{
+      width:auto;
+    }
+  }
+  .title-bg{
+    margin-bottom: 20px;
+    .box-Contest{
+      margin-right: 20px;
+    }
+  }
+  nav {
+    .menu-detail {
+      width:auto;
+      a {
+        width: 130px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
 /*css response ipad*/
 @include respond-to($break-768){
   .content{
@@ -432,6 +473,57 @@ footer{
       }
     }
   }
+
+/*css intro*/
+  html, body{
+    background-size: 100% 100%;
+  }
+  .logo-nvda, .slider-nvda{
+    margin-bottom: 20px;
+    .regular{
+      width: 300px;
+      height:150px;
+      margin: auto;
+      img{
+        width: 300px;
+        height: 150px;
+      }
+    }
+  }
+  .logo-nvda {
+    img{
+      width:70%;
+    }
+  }
+  .title-bg{
+    margin-bottom: 20px;
+    width:100%;
+    .box-Contest{
+      margin-right: 20px;
+    }
+    .box-title{
+      .img-top{
+        width: 130px;
+        background-size: 100%;
+        height: 35px;
+      }
+    }
+  }
+  nav {
+    .menu-detail {
+      width:auto;
+      a {
+        width: 130px;
+        font-size: 18px;
+        margin: auto;
+      }
+    }
+  }
+  .slick-dots{
+    bottom: 5px;
+  }
+
+
 }
 
 

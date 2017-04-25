@@ -104,9 +104,9 @@ ul li {
   font-weight: normal;
   font-style: normal; }
 html, body {
-  height: 100%;
   font-family: "UVF FuturaLT", Helvetica, arial, sans-serif;
-  background: url("../images/bg_img.jpg") repeat;
+  background: url("../images/bg_image.jpg") no-repeat;
+  background-size: 100% 100%;
   color: #e4cb57; }
 
 /*css logo*/
@@ -116,18 +116,18 @@ html, body {
     width: 350px; }
 
 .logo-nvda, .slider-nvda {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center; }
   .logo-nvda .mg-aut, .slider-nvda .mg-aut {
     margin: auto;
     display: block; }
   .logo-nvda .regular, .slider-nvda .regular {
-    width: 600px;
-    height: 300px;
+    width: 900px;
+    height: 500px;
     margin: auto; }
     .logo-nvda .regular img, .slider-nvda .regular img {
-      width: 600px;
-      height: 300px; }
+      width: 900px;
+      height: 500px; }
 
 /*css title-bg*/
 .title-bg {
@@ -139,7 +139,7 @@ html, body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
   .title-bg .box-title .img-top {
     display: block;
     height: 60px; }
@@ -184,13 +184,13 @@ nav {
     nav .menu-top-scroll .btn-close {
       display: none; }
   nav .menu-detail {
-    width: 130px;
+    width: 160px;
     text-align: center; }
 
 .menu-detail a {
   display: block;
-  width: 130px;
-  font-size: 18px;
+  width: 160px;
+  font-size: 25px;
   margin-left: 20px;
   padding: 5px 10px;
   color: #e4cb57;
@@ -376,6 +376,31 @@ footer {
   display: table;
   clear: both; }
 
+/*css full hd*/
+@media only screen and (max-width: 1440px) {
+  .logo-nvda, .slider-nvda {
+    margin-bottom: 20px; }
+    .logo-nvda .regular, .slider-nvda .regular {
+      width: 600px;
+      height: 300px;
+      margin: auto; }
+      .logo-nvda .regular img, .slider-nvda .regular img {
+        width: 600px;
+        height: 300px; }
+
+  .logo-nvda img {
+    width: auto; }
+
+  .title-bg {
+    margin-bottom: 20px; }
+    .title-bg .box-Contest {
+      margin-right: 20px; }
+
+  nav .menu-detail {
+    width: auto; }
+    nav .menu-detail a {
+      width: 130px;
+      font-size: 18px; } }
 /*css response ipad*/
 @media only screen and (max-width: 768px) {
   .content {
@@ -488,7 +513,44 @@ footer {
     display: block; }
   .form-row .many-text .uniform {
     width: 100%;
-    margin: 0; } }
+    margin: 0; }
+
+  /*css intro*/
+  html, body {
+    background-size: 100% 100%; }
+
+  .logo-nvda, .slider-nvda {
+    margin-bottom: 20px; }
+    .logo-nvda .regular, .slider-nvda .regular {
+      width: 300px;
+      height: 150px;
+      margin: auto; }
+      .logo-nvda .regular img, .slider-nvda .regular img {
+        width: 300px;
+        height: 150px; }
+
+  .logo-nvda img {
+    width: 70%; }
+
+  .title-bg {
+    margin-bottom: 20px;
+    width: 100%; }
+    .title-bg .box-Contest {
+      margin-right: 20px; }
+    .title-bg .box-title .img-top {
+      width: 130px;
+      background-size: 100%;
+      height: 35px; }
+
+  nav .menu-detail {
+    width: auto; }
+    nav .menu-detail a {
+      width: 130px;
+      font-size: 18px;
+      margin: auto; }
+
+  .slick-dots {
+    bottom: 5px; } }
 /*css 320*/
 @media only screen and (max-width: 320px) {
   .intro-video .my-video-dimensions {
