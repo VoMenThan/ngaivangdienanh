@@ -82,29 +82,21 @@ ul li {
   list-style-type: none; }
 
 @font-face {
-  font-family: 'UVF FuturaLT';
-  src: url("../fonts/UVF FuturaLT.eot");
-  src: url("../fonts/UVF FuturaLT.woff2") format("woff2"), url("../fonts/UVF FuturaLT.eot?#iefix") format("embedded-opentype");
+  font-family: 'VNF-Futura Regular';
+  src: url("../fonts/VNF-Futura Regular.eot");
+  src: url("../fonts/VNF-Futura Regular.woff2") format("woff2"), url("../fonts/VNF-Futura Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/VNF-Futura.woff") format("woff"), url("../fonts/VNF-Futura.ttf") format("truetype"), url("../fonts/VNF-Futura.svg#VNF-Futura") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'UVFFuturaLT';
-  src: url("../fonts/UVFFuturaLT.woff") format("woff"), url("../fonts/UVFFuturaLT.ttf") format("truetype"), url("../fonts/UVFFuturaLT.svg#../fonts/UVFFuturaLT") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'UVF Aleo-Regular';
-  src: url("../fonts/UVF Aleo-Regular.eot");
-  src: url("../fonts/UVF Aleo-Regular.woff2") format("woff2"), url("../fonts/UVF Aleo-Regular.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'UVFAleo';
-  src: url("../fonts/UVFAleo.woff") format("woff"), url("../fonts/UVFAleo.ttf") format("truetype"), url("../fonts/UVFAleo.svg#UVFAleo") format("svg");
+  font-family: 'HLT AphroditeSlimStylistic';
+  src: url("../fonts/HLT AphroditeSlimStylistic.eot");
+  src: url("../fonts/HLT AphroditeSlimStylistic.woff2") format("woff2"), url("../fonts/HLT AphroditeSlimStylistic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HLTAphroditeSlimStylistic.woff") format("woff"), url("../fonts/HLTAphroditeSlimStylistic.ttf") format("truetype"), url("../fonts/HLTAphroditeSlimStylistic.svg#HLTAphroditeSlimStylistic") format("svg");
   font-weight: normal;
   font-style: normal; }
 html, body {
-  font-family: "UVF FuturaLT", Helvetica, arial, sans-serif;
+  font-family: "VNF-Futura Regular", Helvetica, arial, sans-serif;
   background: url("../images/bg_image.jpg") no-repeat;
   background-size: 100% 100%;
   color: #e4cb57; }
@@ -232,7 +224,8 @@ nav {
     opacity: 0.8; }
   .title-head h1 {
     text-align: center;
-    font-size: 40px; }
+    font-size: 40px;
+    font-family: "HLT AphroditeSlimStylistic", Helvetica, arial, sans-serif; }
 
 /*css content*/
 .content {
@@ -376,8 +369,8 @@ footer {
   display: table;
   clear: both; }
 
-/*css full hd*/
-@media only screen and (max-width: 1440px) {
+/*css hd*/
+@media only screen and (max-width: 1540px) {
   .logo-nvda, .slider-nvda {
     margin-bottom: 20px; }
     .logo-nvda .regular, .slider-nvda .regular {
