@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <style>
         html, body{
-            width: 100%;
-            background-size: 100% ;
             overflow: hidden;
         }
     </style>
