@@ -14,7 +14,7 @@
 <body>
 <header>
     <div class="intro-video">
-        <video poster="images/poster.png" id="my-video"
+        <video autoplay poster="images/poster.png" id="my-video"
                class="video-js"
                 controls
                 width="100%" height="264"
@@ -24,9 +24,11 @@
                 To view this video please enable JavaScript, and consider upgrading to a web browser that
             </p>
         </video>
+        <img src="images/logo.png" alt="logo" class="logo-video-nvda">
     </div>
     <div id="sticky-anchor-scroll"></div>
     <nav class="nav-top">
+        <img src="images/logo.png" alt="logo" class="logo-nav-nvda">
         <ul class="menu-top-scroll">
             <li class="menu-detail btn-close"><span class="close-x">X</span></li>
             <li class="menu-detail">
@@ -88,11 +90,11 @@
 <footer>
     <div class="box-footer">
         <h3>Ban Tổ Chức</h3>
-        <img class="img-logo-organize" src="images/cty-sieu-nhan-viet.png" alt="">
-        <img class="img-logo-organize" src="images/cty-mouse.png" alt="">
+        <a href="#"><img class="img-logo-organize" src="images/cty-sieu-nhan-viet.png" alt=""></a>
+        <a href="#"><img class="img-logo-organize" src="images/cty-mouse.png" alt=""></a>
     </div>
     <div class="box-footer logo-footer">
-        <img src="images/logo.png" alt="logo ngai vàng điện ảnh">
+        <a href="#"><img src="images/logo.png" alt="logo ngai vàng điện ảnh"></a>
     </div>
     <div class="box-footer contact ">
         <div class="contact-footer">
@@ -105,7 +107,10 @@
             0909 000000
         </div>
     </div>
-    <div class="donors"><span> Nhà tài trợ</span> <img src="images/icon-cat.png" alt="Nhà tài trợ"></div>
+    <div class="donors"><span> Nhà tài trợ</span>
+        <a href="#" class="logo-dornor"><img src="images/icon-cat.png" alt="Nhà tài trợ"></a>
+        <a href="#" class="logo-dornor"><img src="images/icon-cat.png" alt="Nhà tài trợ"></a>
+    </div>
     <div class="copyright">
         <div class="copy">All right reserved Dehaan Media.</div>
         <div class="copy">Giấy phép số BCT/123445/78</div>

@@ -106,8 +106,11 @@ ul li {
 html, body {
   height: 100%;
   font-family: "UVF FuturaLT", Helvetica, arial, sans-serif;
-  background: url("../images/bg_img.jpg") repeat;
-  color: #e4cb57; }
+  background: url(../images/bg_image.jpg) repeat;
+  color: #e4cb57;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 /*css logo*/
 .logo-nvda {
@@ -160,7 +163,13 @@ html, body {
   z-index: 10000;
   width: 100%;
   background: #000000;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  height: 80px;
+  opacity: 0.7; }
+  .nav-top.stick-scroll .logo-nav-nvda {
+    display: block; }
+  .nav-top.stick-scroll .menu-top-scroll {
+    margin-top: 25px; }
 
 nav {
   display: -webkit-box;
@@ -186,6 +195,12 @@ nav {
   nav .menu-detail {
     width: 130px;
     text-align: center; }
+  nav .logo-nav-nvda {
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    display: none; }
 
 .menu-detail a {
   display: block;
@@ -206,7 +221,8 @@ nav {
 
 /*css title*/
 .intro-video {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
   .intro-video .my-video-dimensions {
     width: 100%;
     height: 600px; }
@@ -214,6 +230,11 @@ nav {
     background: transparent; }
   .intro-video .video-js .vjs-menu, .intro-video .video-js .vjs-progress-control, .intro-video .video-js .vjs-time-control, .intro-video .video-js .vjs-fullscreen-control {
     display: none; }
+  .intro-video .logo-video-nvda {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px; }
 
 .title-head {
   position: relative;
@@ -257,10 +278,11 @@ nav {
   margin-right: 30px;
   margin-bottom: 30px; }
   .box-content-news .news-box {
-    margin: 20px 30px 40px 30px;
+    margin: 30px 30px 40px 30px;
     padding: 40px;
     background: #ffffff;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    color: #000; }
     .box-content-news .news-box:last-child {
       margin-bottom: 20px; }
     .box-content-news .news-box .title-news-content {
@@ -269,12 +291,12 @@ nav {
       border-bottom: 3px solid #e4cb57; }
     .box-content-news .news-box .img-news {
       float: left;
-      width: 400px;
-      height: 200px;
+      width: 430px;
+      height: 300px;
       padding-right: 30px; }
     .box-content-news .news-box .content-right {
       float: left;
-      width: 30%;
+      width: calc(100% - 430px);
       height: 200px;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -380,6 +402,8 @@ footer {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 15px; }
+    footer .donors .logo-dornor {
+      padding: 0 5px; }
   footer .copyright {
     display: -webkit-box;
     display: -webkit-flex;
