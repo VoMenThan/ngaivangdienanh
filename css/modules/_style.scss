@@ -1,11 +1,8 @@
 html, body{
-  width: 100%;
-  height:100%;
+  height: 100%;
   font-family: $main;
   background: url("../images/bg_img.jpg") repeat;
   color: #e4cb57;
-}
-section{
 }
 /*css logo*/
 .logo-nvda{
@@ -15,19 +12,19 @@ section{
   }
 }
 .logo-nvda, .slider-nvda{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
   .mg-aut{
     margin: auto;
     display: block;
   }
   .regular{
-    width: 900px;
-    height:500px;
+    width: 600px;
+    height:300px;
    margin: auto;
     img{
-      width: 900px;
-      height: 500px;
+      width: 600px;
+      height: 300px;
     }
   }
 }
@@ -35,7 +32,7 @@ section{
 .title-bg{
   @include flex;
   @include justify-content(center);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   .box-title{
     .img-top{
       display: block;
@@ -80,15 +77,15 @@ nav{
     }
   }
   .menu-detail{
-    width: 160px;
+    width: 130px;
     text-align: center;
   }
 }
 .menu-detail {
   a {
     display: block;
-    width: 160px;
-    font-size: 25px;
+    width: 130px;
+    font-size: 18px;
     margin-left: 20px;
     padding: 5px 10px;
     color: #e4cb57;
@@ -139,12 +136,81 @@ nav{
   h1{
     text-align: center;
     font-size: 40px;
-    font-family: $main-r;
   }
-
+  .box-title-news{
+    height: 70px;
+    background: #c6c4c5;
+    width:80%;
+    margin: auto;
+  }
+}
+/*css tin tức*/
+.news-section{
+  padding: 0 60px 0 160px;
+  .title-content-news{
+    font-size: 50px;
+    border-bottom: 3px solid #e4cb57;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 310px;
+  }
+}
+.box-content-news{
+  width: calc(100% - 310px);
+  float: left;
+  background: #807e7f;
+  min-height: 500px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  .news-box{
+    margin: 20px 30px 40px 30px;
+    padding: 40px;
+    background: #ffffff;
+    padding-bottom: 20px;
+    &:last-child{
+      margin-bottom: 20px;
+    }
+    .title-news-content{
+      font-size: 40px;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #e4cb57;
+    }
+    .img-news{
+      float: left;
+      width: 400px;
+      height: 200px;
+      padding-right: 30px;
+    }
+    .content-right{
+      float: left;
+      width: 30%;
+      height: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.8;
+    }
+    .view-detail{
+      clear: both;
+      padding-top: 20px;
+    }
+  }
+  hr{
+    margin: 0 30px;
+    display: block;
+    border: 0;
+    border-top: 1px solid #000;
+    opacity: 0.3;
+  }
+}
+aside{
+  float: left;
+  width: 280px;
+  background: #c6c4c5;
+  .box-sidebar{
+    height: 500px;
+  }
 }
 /*css content*/
-
 .content{
   padding:0 180px;
   line-height: 2.3;
@@ -281,53 +347,11 @@ footer{
     color: red;
   }
 }
-
-
-
 .clear-fix:after{
   content: '';
   display: table;
   clear: both;
 }
-/*css hd*/
-@include respond-to($break-1540){
-
-  .logo-nvda, .slider-nvda{
-    margin-bottom: 20px;
-    .regular{
-      width: 600px;
-      height:300px;
-      margin: auto;
-      img{
-        width: 600px;
-        height: 300px;
-      }
-    }
-  }
-  .logo-nvda {
-    img{
-      width:auto;
-    }
-  }
-  .title-bg{
-    margin-bottom: 20px;
-    .box-Contest{
-      margin-right: 20px;
-    }
-  }
-  nav {
-    .menu-detail {
-      width:auto;
-      a {
-        width: 130px;
-        font-size: 18px;
-      }
-    }
-  }
-}
-
-
-
 /*css response ipad*/
 @include respond-to($break-768){
   .content{
@@ -475,57 +499,6 @@ footer{
       }
     }
   }
-
-/*css intro*/
-  html, body{
-    background-size: 100% 100%;
-  }
-  .logo-nvda, .slider-nvda{
-    margin-bottom: 20px;
-    .regular{
-      width: 300px;
-      height:150px;
-      margin: auto;
-      img{
-        width: 300px;
-        height: 150px;
-      }
-    }
-  }
-  .logo-nvda {
-    img{
-      width:70%;
-    }
-  }
-  .title-bg{
-    margin-bottom: 20px;
-    width:100%;
-    .box-Contest{
-      margin-right: 20px;
-    }
-    .box-title{
-      .img-top{
-        width: 130px;
-        background-size: 100%;
-        height: 35px;
-      }
-    }
-  }
-  nav {
-    .menu-detail {
-      width:auto;
-      a {
-        width: 130px;
-        font-size: 18px;
-        margin: auto;
-      }
-    }
-  }
-  .slick-dots{
-    bottom: 5px;
-  }
-
-
 }
 
 

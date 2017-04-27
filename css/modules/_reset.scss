@@ -48,29 +48,39 @@ a{
 ul li{
   list-style-type: none;
 }
+
 @font-face {
-  font-family: 'VNF-Futura Regular';
-  src: url('../fonts/VNF-Futura Regular.eot');
-  src: url('../fonts/VNF-Futura Regular.woff2') format('woff2'),
-  url('../fonts/VNF-Futura Regular.eot?#iefix') format('embedded-opentype');
-  src: url('../fonts/VNF-Futura.woff') format('woff'),
-  url('../fonts/VNF-Futura.ttf') format('truetype'),
-  url('../fonts/VNF-Futura.svg#VNF-Futura') format('svg');
+  font-family: 'UVF FuturaLT';
+  src: url('../fonts/UVF FuturaLT.eot');
+  src: url('../fonts/UVF FuturaLT.woff2') format('woff2'),
+  url('../fonts/UVF FuturaLT.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'HLT AphroditeSlimStylistic';
-  src: url('../fonts/HLT AphroditeSlimStylistic.eot');
-  src: url('../fonts/HLT AphroditeSlimStylistic.woff2') format('woff2'),
-  url('../fonts/HLT AphroditeSlimStylistic.eot?#iefix') format('embedded-opentype');
-  src: url('../fonts/HLTAphroditeSlimStylistic.woff') format('woff'),
-  url('../fonts/HLTAphroditeSlimStylistic.ttf') format('truetype'),
-  url('../fonts/HLTAphroditeSlimStylistic.svg#HLTAphroditeSlimStylistic') format('svg');
+  font-family: 'UVFFuturaLT';
+  src: url('../fonts/UVFFuturaLT.woff') format('woff'),
+  url('../fonts/UVFFuturaLT.ttf') format('truetype'),
+  url('../fonts/UVFFuturaLT.svg#../fonts/UVFFuturaLT') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'UVF Aleo-Regular';
+  src: url('../fonts/UVF Aleo-Regular.eot');
+  src: url('../fonts/UVF Aleo-Regular.woff2') format('woff2'),
+  url('../fonts/UVF Aleo-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-
+@font-face {
+  font-family: 'UVFAleo';
+  src: url('../fonts/UVFAleo.woff') format('woff'),
+  url('../fonts/UVFAleo.ttf') format('truetype'),
+  url('../fonts/UVFAleo.svg#UVFAleo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
