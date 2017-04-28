@@ -14,7 +14,7 @@
 <body>
 <header>
     <div class="intro-video">
-        <video autoplay poster="images/poster.png" id="my-video"
+        <video poster="images/poster.png" id="my-video"
                class="video-js"
                 controls
                 width="100%" height="264"
@@ -66,26 +66,57 @@
 
                 Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ không được giải quyết nhanh và tích cực thì có thể nảy sinh thành vấn đề lớn.
             </div>
-            <div class="view-detail">Xem thêm</div>
+            <div class="view-detail"><a href="#">Xem thêm...</a></div>
         </div>
         <hr>
         <div class="news-box">
-            <div class="title-news-content">Title</div>
-            <img class="img-news" src="images/02.jpg" alt="">
-            <div class="content-right">
+            <a href="#"><img class="img-news" src="images/02.jpg" alt=""></a>
+            <a class="title-news-content" href="#">Title</a>
+            <p class="content-right">
                 Một số cử tri đề nghị thành phố tập trung giải quyết những vấn đề liên quan đến ranh giới đất đai giữa địa phương với quốc phòng.
 
                 Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ không được giải quyết nhanh và tích cực thì có thể nảy sinh thành vấn đề lớn.
-            </div>
-            <div class="view-detail">Xem thêm</div>
+            </p>
+            <div class="view-detail"><a href="#">Xem thêm...</a></div>
         </div>
+
 
     </article>
     <aside>
-        <div class="box-sidebar"></div>
-    </aside>
+        <div class="box-related-news">
+            <a href="#"><img src="images/04.jpg" alt=""></a>
+            <a class="title-related" href="#">Title</a>
+            <p>Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ</p>
+        </div>
 
+        <div class="box-related-news">
+            <a href="#"><img src="images/04.jpg" alt=""></a>
+            <a class="title-related" href="#">Title</a>
+            <p>Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ</p>
+        </div>
+        <div class="box-related-news">
+            <a href="#"><img src="images/04.jpg" alt=""></a>
+            <a class="title-related" href="#">Title</a>
+            <p>Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ</p>
+        </div>
+    </aside>
     <div class="clear-fix"></div>
+    <div class="page-number">
+        <ul>
+            <li ><a class="btn-prev" href="#"><img src="images/btn-page.jpg" alt=""></a></li>
+            <li><a href="#">1</a></li
+            <li><a href="#">2</a></li
+            <li><a href="#">3</a></li
+            <li><a href="#">4</a></li
+            <li><a href="#">5</a></li
+            <li><a href="#">6</a></li
+            <li><a href="#">7</a></li
+            <li><a href="#">8</a></li
+            <li><a href="#">9</a></li
+            <li><a href="#">10</a></li
+            <li><a class="btn-next" href="#"><img src="images/btn-page.jpg" alt=""></a></li>
+        </ul>
+    </div>
 </section>
 <footer>
     <div class="box-footer">
