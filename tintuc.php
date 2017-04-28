@@ -59,8 +59,8 @@
     <div class="title-content-news">Tin tức</div>
     <article class="box-content-news">
         <div class="news-box">
-            <div class="title-news-content">Title</div>
-            <img class="img-news" src="images/02.jpg" alt="">
+            <a class="title-news-content" href="#">Title</a>
+            <a href="#"><img class="img-news" src="images/02.jpg" alt=""></a>
             <div class="content-right">
                 Một số cử tri đề nghị thành phố tập trung giải quyết những vấn đề liên quan đến ranh giới đất đai giữa địa phương với quốc phòng.
 
@@ -70,13 +70,13 @@
         </div>
         <hr>
         <div class="news-box">
-            <a href="#"><img class="img-news" src="images/02.jpg" alt=""></a>
-            <a class="title-news-content" href="#">Title</a>
-            <p class="content-right">
+            <div class="title-news-content">Title</div>
+            <img class="img-news" src="images/02.jpg" alt="">
+            <div class="content-right">
                 Một số cử tri đề nghị thành phố tập trung giải quyết những vấn đề liên quan đến ranh giới đất đai giữa địa phương với quốc phòng.
 
                 Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ không được giải quyết nhanh và tích cực thì có thể nảy sinh thành vấn đề lớn.
-            </p>
+            </div>
             <div class="view-detail"><a href="#">Xem thêm...</a></div>
         </div>
 
