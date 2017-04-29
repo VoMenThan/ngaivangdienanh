@@ -27,8 +27,7 @@
         <img src="images/logo.png" alt="logo" class="logo-video-nvda">
     </div>
     <div id="sticky-anchor-scroll"></div>
-    <nav class="nav-top">
-        <img src="images/logo.png" alt="logo" class="logo-nav-nvda">
+    <nav class="nav-top nav-home">
         <ul class="menu-top-scroll">
             <li class="menu-detail btn-close"><span class="close-x">X</span></li>
             <li class="menu-detail">
@@ -60,7 +59,7 @@
     <article class="box-content-news">
         <div class="news-box">
             <a class="title-news-content" href="#">Title</a>
-            <a href="#"><img class="img-news" src="images/02.jpg" alt=""></a>
+            <a href="#"><img class="img-news" src="images/news.jpg" alt=""></a>
             <div class="content-right">
                 Một số cử tri đề nghị thành phố tập trung giải quyết những vấn đề liên quan đến ranh giới đất đai giữa địa phương với quốc phòng.
 
@@ -71,7 +70,7 @@
         <hr>
         <div class="news-box">
             <div class="title-news-content">Title</div>
-            <img class="img-news" src="images/02.jpg" alt="">
+            <img class="img-news" src="images/news.jpg" alt="">
             <div class="content-right">
                 Một số cử tri đề nghị thành phố tập trung giải quyết những vấn đề liên quan đến ranh giới đất đai giữa địa phương với quốc phòng.
 
@@ -83,22 +82,14 @@
 
     </article>
     <aside>
-        <div class="box-related-news">
-            <a href="#"><img src="images/04.jpg" alt=""></a>
-            <a class="title-related" href="#">Title</a>
-            <p>Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ</p>
+        <div class="box-ad-news">
+            <a href="#"><img src="images/quang cao.jpg" alt=""></a>
         </div>
 
-        <div class="box-related-news">
-            <a href="#"><img src="images/04.jpg" alt=""></a>
-            <a class="title-related" href="#">Title</a>
-            <p>Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ</p>
+        <div class="box-ad-news">
+            <a href="#"><img src="images/quang cao.jpg" alt=""></a>
         </div>
-        <div class="box-related-news">
-            <a href="#"><img src="images/04.jpg" alt=""></a>
-            <a class="title-related" href="#">Title</a>
-            <p>Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ</p>
-        </div>
+
     </aside>
     <div class="clear-fix"></div>
     <div class="page-number">

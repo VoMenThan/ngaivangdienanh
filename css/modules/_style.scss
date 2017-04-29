@@ -69,7 +69,7 @@ html, body{
     display: block;
   }
   .menu-top-scroll{
-    margin-top: 25px;
+    margin-top: 50px;
   }
 }
 nav{
@@ -94,7 +94,7 @@ nav{
   .logo-nav-nvda{
     height: 70px;
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     left: 30px;
     display: none;
   }
@@ -184,7 +184,7 @@ nav{
 .box-content-news{
   width: calc(100% - 430px);
   float: left;
-  background: #807e7f;
+  background: rgba(131, 131, 131, 0.7);
   min-height: 500px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -205,6 +205,9 @@ nav{
       font-size: 40px;
       margin-bottom: 20px;
       border-bottom: 3px solid #e4cb57;
+      color: #000;
+      padding-bottom: 20px;
+
     }
     .img-news{
       float: left;
@@ -240,24 +243,17 @@ nav{
 aside{
   float: left;
   width: 400px;
-  background: #c6c4c5;
+  .box-ad-news{
+    background: rgba(198, 197, 196, 0.7);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+    img{
+      width:100%;
+    }
 }
-.box-related-news{
-  background: #fff;
-  margin: 15px;
-  padding: 12px;
-  color: #000;
-  a{
-    display: block;
-  }
-  .title-related{
-    font-size: 20px;
-    color: #000000;
-  }
-  img{
-    width:100%;
-  }
-}
+
 
 .page-number{
   margin-bottom: 70px;
@@ -514,7 +510,6 @@ footer{
   aside{
     float: left;
     width: 280px;
-    background: #c6c4c5;
   }
 
 }
@@ -599,13 +594,56 @@ footer{
     padding: 0 30px 0 60px;
   }
   .box-content-news {
-    width: calc(100% - 290px);
+    width: calc(100% - 210px);
     margin-right: 10px;
+  }
+  aside {
+    width: 200px;
+  }
+  .page-number {
+    ul {
+      a {
+        width: 57px;
+      }
+    }
   }
 }
 
-/*css 414*/
+/*css 480*/
 @include respond-to($break-480){
+  .logo-nvda {
+    img {
+      width: 200px;
+    }
+  }
+  .logo-nvda, .slider-nvda {
+    .regular{
+      width: 95%;
+      height: 200px;
+      margin: auto;
+      img {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+      }
+    }
+  }
+  .title-bg {
+    .box-title {
+      .du-thi {
+        width: 150px;
+        background-size: 100% 100%;
+      }
+      .img-top {
+        display: block;
+        height: 40px;
+      }
+      .thi-sinh {
+        width: 150px;
+        background-size: 100% 100%;
+      }
+    }
+  }
   .intro-video {
     .my-video-dimensions{
       height:300px;
@@ -657,7 +695,7 @@ footer{
     }
   }
   .nav-top.stick-scroll{
-    background: transparent;
+    height: 50px;
     .menu-top-scroll{
       top:0;
     }
@@ -666,6 +704,9 @@ footer{
     position: relative;
     height: 20px;
     padding-bottom: 0;
+    .logo-nav-nvda {
+      height: 35px;
+    }
     .btn-menu{
       display: block;
     }
@@ -680,6 +721,7 @@ footer{
       z-index: 999;
       width: 100%;
       display: none;
+      opacity: 0.7;
       .btn-close{
         display: block;
         position: relative;
@@ -736,7 +778,6 @@ footer{
     .news-box {
       margin: 10px 10px 15px 10px;
       padding: 20px;
-      height: 300px;
       .title-news-content {
         font-size: 25px;
         margin-bottom: 10px;
@@ -755,22 +796,13 @@ footer{
     float: left;
     width: 100%;
     margin-bottom: 20px;
-  }
-  .box-related-news {
-    background: #fff;
-    margin: 10px;
-    padding: 7px;
-    color: #000;
-    font-size: 15px;
-    width: calc(50% - 20px);
-    float: left;
-    overflow: hidden;
+    display: none;
   }
   .page-number {
     margin-bottom: 30px;
     ul {
       a {
-        width: 35px;
+        width: 25px;
         height: 35px;
         display: block;
         text-align: center;
@@ -829,14 +861,13 @@ footer{
       }
     }
   }
-  /*nav mobile*/
+  /*nav mobile 320*/
   .stick-scroll{
     .btn-menu{
       top: 10px;
     }
   }
   .nav-top.stick-scroll{
-    background: transparent;
     .menu-top-scroll{
       top:0;
     }

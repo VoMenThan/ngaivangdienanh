@@ -169,7 +169,7 @@ html, body {
   .nav-top.stick-scroll .logo-nav-nvda {
     display: block; }
   .nav-top.stick-scroll .menu-top-scroll {
-    margin-top: 25px; }
+    margin-top: 50px; }
 
 nav {
   display: -webkit-box;
@@ -198,7 +198,7 @@ nav {
   nav .logo-nav-nvda {
     height: 70px;
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     left: 30px;
     display: none; }
 
@@ -273,7 +273,7 @@ nav {
 .box-content-news {
   width: calc(100% - 430px);
   float: left;
-  background: #807e7f;
+  background: rgba(131, 131, 131, 0.7);
   min-height: 500px;
   margin-right: 30px;
   margin-bottom: 30px; }
@@ -290,7 +290,9 @@ nav {
     .box-content-news .news-box .title-news-content {
       font-size: 40px;
       margin-bottom: 20px;
-      border-bottom: 3px solid #e4cb57; }
+      border-bottom: 3px solid #e4cb57;
+      color: #000;
+      padding-bottom: 20px; }
     .box-content-news .news-box .img-news {
       float: left;
       width: 800px;
@@ -318,20 +320,13 @@ nav {
 
 aside {
   float: left;
-  width: 400px;
-  background: #c6c4c5; }
-
-.box-related-news {
-  background: #fff;
-  margin: 15px;
-  padding: 12px;
-  color: #000; }
-  .box-related-news a {
-    display: block; }
-  .box-related-news .title-related {
-    font-size: 20px;
-    color: #000000; }
-  .box-related-news img {
+  width: 400px; }
+  aside .box-ad-news {
+    background: rgba(198, 197, 196, 0.7);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px; }
+  aside img {
     width: 100%; }
 
 .page-number {
@@ -572,8 +567,7 @@ footer {
 
   aside {
     float: left;
-    width: 280px;
-    background: #c6c4c5; } }
+    width: 280px; } }
 /*css reponse 1280*/
 @media only screen and (max-width: 1280px) {
   .box-content-news .news-box .content-right {
@@ -626,10 +620,38 @@ footer {
     padding: 0 30px 0 60px; }
 
   .box-content-news {
-    width: calc(100% - 290px);
-    margin-right: 10px; } }
-/*css 414*/
+    width: calc(100% - 210px);
+    margin-right: 10px; }
+
+  aside {
+    width: 200px; }
+
+  .page-number ul a {
+    width: 57px; } }
+/*css 480*/
 @media only screen and (max-width: 480px) {
+  .logo-nvda img {
+    width: 200px; }
+
+  .logo-nvda .regular, .slider-nvda .regular {
+    width: 95%;
+    height: 200px;
+    margin: auto; }
+    .logo-nvda .regular img, .slider-nvda .regular img {
+      width: 100%;
+      height: 200px;
+      margin: auto; }
+
+  .title-bg .box-title .du-thi {
+    width: 150px;
+    background-size: 100% 100%; }
+  .title-bg .box-title .img-top {
+    display: block;
+    height: 40px; }
+  .title-bg .box-title .thi-sinh {
+    width: 150px;
+    background-size: 100% 100%; }
+
   .intro-video .my-video-dimensions {
     height: 300px; }
 
@@ -666,7 +688,7 @@ footer {
     top: 10px; }
 
   .nav-top.stick-scroll {
-    background: transparent; }
+    height: 50px; }
     .nav-top.stick-scroll .menu-top-scroll {
       top: 0; }
 
@@ -674,6 +696,8 @@ footer {
     position: relative;
     height: 20px;
     padding-bottom: 0; }
+    nav .logo-nav-nvda {
+      height: 35px; }
     nav .btn-menu {
       display: block; }
     nav .menu-top-scroll {
@@ -692,7 +716,8 @@ footer {
       background: #fff;
       z-index: 999;
       width: 100%;
-      display: none; }
+      display: none;
+      opacity: 0.7; }
       nav .menu-top-scroll .btn-close {
         display: block;
         position: relative;
@@ -736,8 +761,7 @@ footer {
     margin-right: 10px; }
     .box-content-news .news-box {
       margin: 10px 10px 15px 10px;
-      padding: 20px;
-      height: 300px; }
+      padding: 20px; }
       .box-content-news .news-box .title-news-content {
         font-size: 25px;
         margin-bottom: 10px;
@@ -751,22 +775,13 @@ footer {
   aside {
     float: left;
     width: 100%;
-    margin-bottom: 20px; }
-
-  .box-related-news {
-    background: #fff;
-    margin: 10px;
-    padding: 7px;
-    color: #000;
-    font-size: 15px;
-    width: calc(50% - 20px);
-    float: left;
-    overflow: hidden; }
+    margin-bottom: 20px;
+    display: none; }
 
   .page-number {
     margin-bottom: 30px; }
     .page-number ul a {
-      width: 35px;
+      width: 25px;
       height: 35px;
       display: block;
       text-align: center;
@@ -805,14 +820,12 @@ footer {
     padding: 0 5px;
     height: 50px; }
 
-  /*nav mobile*/
+  /*nav mobile 320*/
   .stick-scroll .btn-menu {
     top: 10px; }
 
-  .nav-top.stick-scroll {
-    background: transparent; }
-    .nav-top.stick-scroll .menu-top-scroll {
-      top: 0; }
+  .nav-top.stick-scroll .menu-top-scroll {
+    top: 0; }
 
   nav {
     position: relative;
