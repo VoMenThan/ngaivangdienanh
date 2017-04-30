@@ -253,7 +253,9 @@ nav {
     opacity: 0.8; }
   .title-head h1 {
     text-align: center;
-    font-size: 40px; }
+    font-size: 40px;
+    width: 50%;
+    margin: auto; }
   .title-head .box-title-news {
     height: 70px;
     background: #c6c4c5;
@@ -665,6 +667,9 @@ footer {
 @media only screen and (max-width: 1680px) {
   /*css 480*/ }
 @media only screen and (max-width: 1680px) and (max-width: 480px) {
+  .title-bg {
+    padding-bottom: 20px; }
+
   .news-section {
     padding: 0 10px 0 20px; }
 
@@ -769,7 +774,7 @@ footer {
         height: 12px; }
         nav .menu-top-scroll .btn-close .close-x {
           position: absolute;
-          top: 1px;
+          top: 10px;
           right: 10px; }
     nav .menu-detail {
       width: 100%; }

@@ -40,13 +40,17 @@
                 <a href="#" class="thi-sinh img-top"></a>
             </div>
         </div>
-        <nav>
+        <nav class="nav-top nav-home">
+            <a href="http://ngaivangdienanh.com">
+                <img src="images/logo.png" alt="logo" class="logo-nav-nvda">
+            </a>
             <ul class="menu-top-scroll">
+                <li class="menu-detail btn-close"><span class="close-x">X</span></li>
                 <li class="menu-detail">
                     <a href="">Giới thiệu</a>
                 </li>
                 <li class="menu-detail">
-                    <a href="">Thể lệ</a>
+                    <a class="active" href="">Thể lệ</a>
                 </li>
                 <li class="menu-detail">
                     <a href="">Tin tức</a>
@@ -58,6 +62,7 @@
                     <a href="">Video</a>
                 </li>
             </ul>
+            <img class="btn-menu" src="images/btn-menu.png" alt="menu">
         </nav>
     </article>
 </section>
@@ -76,7 +81,16 @@
             autoplay: true,
             speed: 500
         });
+        /*js menu top mobile*/
+        $('.btn-menu').click(function(event){
+            event.stopPropagation();
+            $('.menu-top-scroll').fadeIn();
+        });
+        $('.close-x').click(function () {
+            $('.menu-top-scroll').fadeOut();
+        })
     });
+
 </script>
 </body>
 </html>

@@ -162,6 +162,8 @@ nav{
   h1{
     text-align: center;
     font-size: 40px;
+    width:50%;
+    margin: auto;
   }
   .box-title-news{
     height: 70px;
@@ -654,6 +656,9 @@ footer{
 
   /*css 480*/
   @include respond-to($break-480){
+    .title-bg{
+      padding-bottom: 20px;
+    }
     .news-section {
       padding: 0 10px 0 20px;
     }
@@ -785,7 +790,7 @@ footer{
           height: 12px;
           .close-x{
             position: absolute;
-            top: 1px;
+            top: 10px;
             right: 10px;
           }
         }
