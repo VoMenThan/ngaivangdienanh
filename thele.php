@@ -26,7 +26,10 @@
         </video>
     </div>
     <div id="sticky-anchor-scroll"></div>
-    <nav class="nav-top">
+    <nav class="nav-top nav-home">
+        <a href="http://ngaivangdienanh.com">
+            <img src="images/logo.png" alt="logo" class="logo-nav-nvda">
+        </a>
         <ul class="menu-top-scroll">
             <li class="menu-detail btn-close"><span class="close-x">X</span></li>
             <li class="menu-detail">
