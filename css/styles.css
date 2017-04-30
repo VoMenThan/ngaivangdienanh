@@ -169,7 +169,7 @@ html, body {
   .nav-top.stick-scroll .logo-nav-nvda {
     display: block; }
   .nav-top.stick-scroll .menu-top-scroll {
-    margin-top: 50px; }
+    margin-top: 25px; }
 
 nav {
   display: -webkit-box;
@@ -305,7 +305,7 @@ nav {
       overflow: hidden;
       text-overflow: ellipsis;
       line-height: 2.8;
-      padding-right: 100px; }
+      padding-right: 30px; }
     .box-content-news .news-box .view-detail {
       clear: both;
       padding-top: 20px; }
@@ -513,8 +513,20 @@ footer {
   display: table;
   clear: both; }
 
-/*css 1440*/
-@media only screen and (max-width: 1440px) {
+/*css 1680*/
+@media only screen and (max-width: 1680px) {
+  .box-content-news .news-box .img-news {
+    width: 700px;
+    height: 400px;
+    padding-right: 20px; }
+  .box-content-news .news-box .content-right {
+    float: left;
+    width: calc(100% - 700px);
+    height: 400px;
+    padding-right: 20px; }
+
+  /*css 1440*/ }
+@media only screen and (max-width: 1680px) and (max-width: 1440px) {
   .news-section {
     padding: 0 60px 0 160px; }
     .news-section .title-content-news {
@@ -568,11 +580,12 @@ footer {
   aside {
     float: left;
     width: 280px; } }
-/*css reponse 1280*/
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1680px) {
+  /*css reponse 1280*/ }
+@media only screen and (max-width: 1680px) and (max-width: 1280px) {
   .box-content-news .news-box .content-right {
     padding-right: 0; } }
-@media only screen and (max-width: 1065px) {
+@media only screen and (max-width: 1680px) and (max-width: 1065px) {
   .box-content-news .news-box {
     margin: 20px 20px 30px 20px;
     padding: 20px; }
@@ -584,8 +597,9 @@ footer {
       width: 100%;
       height: auto;
       line-height: 1.8; } }
-/*css response ipad*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1680px) {
+  /*css response ipad*/ }
+@media only screen and (max-width: 1680px) and (max-width: 768px) {
   .content {
     padding: 0 100px; }
 
@@ -627,9 +641,37 @@ footer {
     width: 200px; }
 
   .page-number ul a {
-    width: 57px; } }
-/*css 480*/
-@media only screen and (max-width: 480px) {
+    width: 57px; }
+
+  /*css menu ipad 768*/
+  nav .logo-nav-nvda {
+    height: 33px;
+    bottom: 13px;
+    left: 20px; }
+  nav .menu-top-scroll {
+    -webkit-box-pack: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end; }
+
+  .nav-top.stick-scroll .menu-top-scroll {
+    margin-top: 12px; }
+
+  .nav-top.stick-scroll {
+    height: 60px; }
+
+  .intro-video .logo-video-nvda {
+    width: 150px; } }
+@media only screen and (max-width: 1680px) {
+  /*css 480*/ }
+@media only screen and (max-width: 1680px) and (max-width: 480px) {
+  .news-section {
+    padding: 0 10px 0 20px; }
+
+  .title-head .box-title-news {
+    margin-left: 20px;
+    margin-right: 10px; }
+
   .logo-nvda img {
     width: 200px; }
 
@@ -690,7 +732,10 @@ footer {
   .nav-top.stick-scroll {
     height: 50px; }
     .nav-top.stick-scroll .menu-top-scroll {
-      top: 0; }
+      top: 50px; }
+
+  .nav-top.stick-scroll .menu-top-scroll {
+    margin-top: 0; }
 
   nav {
     position: relative;
@@ -717,7 +762,7 @@ footer {
       z-index: 999;
       width: 100%;
       display: none;
-      opacity: 0.7; }
+      opacity: 0.9; }
       nav .menu-top-scroll .btn-close {
         display: block;
         position: relative;
@@ -781,14 +826,15 @@ footer {
   .page-number {
     margin-bottom: 30px; }
     .page-number ul a {
-      width: 25px;
+      width: 38px;
       height: 35px;
       display: block;
       text-align: center;
       line-height: 35px;
       color: #000000; } }
-/*css 320*/
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1680px) {
+  /*css 320*/ }
+@media only screen and (max-width: 1680px) and (max-width: 320px) {
   .intro-video .my-video-dimensions {
     height: 300px; }
 
@@ -873,5 +919,8 @@ footer {
     right: 10px;
     opacity: 0.6;
     cursor: pointer; } }
+@media only screen and (max-width: 1680px) {
+  .page-number ul a {
+    width: 24px; } }
 
 /*# sourceMappingURL=styles.css.map */

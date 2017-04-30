@@ -69,7 +69,7 @@ html, body{
     display: block;
   }
   .menu-top-scroll{
-    margin-top: 50px;
+    margin-top: 25px;
   }
 }
 nav{
@@ -222,7 +222,7 @@ nav{
       overflow: hidden;
       text-overflow: ellipsis;
       line-height: 2.8;
-      padding-right: 100px;
+      padding-right: 30px;
     }
     .view-detail{
       clear: both;
@@ -447,477 +447,542 @@ footer{
   display: table;
   clear: both;
 }
-/*css 1440*/
-@include respond-to($break-1440) {
-  .news-section{
-    padding: 0 60px 0 160px;
-    .title-content-news{
-      font-size: 50px;
-      border-bottom: 3px solid #e4cb57;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      margin-right: 310px;
+/*css 1680*/
+@include respond-to($break-1680) {
+.box-content-news {
+  .news-box {
+    .img-news {
+      width: 700px;
+      height: 400px;
+      padding-right: 20px;
+    }
+    .content-right {
+      float: left;
+      width: calc(100% - 700px);
+      height: 400px;
+      padding-right: 20px;
     }
   }
-  .box-content-news{
-    width: calc(100% - 310px);
-    float: left;
-    background: #807e7f;
-    min-height: 500px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    .news-box{
-      margin: 30px 30px 40px 30px;
-      padding: 40px;
-      background: #ffffff;
-      padding-bottom: 20px;
-      color: #000;
-      &:last-child{
-        margin-bottom: 20px;
-      }
-      .title-news-content{
-        font-size: 40px;
-        margin-bottom: 20px;
+}
+
+  /*css 1440*/
+  @include respond-to($break-1440) {
+    .news-section{
+      padding: 0 60px 0 160px;
+      .title-content-news{
+        font-size: 50px;
         border-bottom: 3px solid #e4cb57;
-      }
-      .img-news{
-        float: left;
-        width: 430px;
-        height: 300px;
-        padding-right: 30px;
-      }
-      .content-right{
-        float: left;
-        width: calc(100% - 430px);
-        height: 200px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        line-height: 1.8;
-      }
-      .view-detail{
-        clear: both;
-        padding-top: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 310px;
       }
     }
-    hr{
-      margin: 0 30px;
-      display: block;
-      border: 0;
-      border-top: 1px solid #000;
-      opacity: 0.3;
-    }
-  }
-  aside{
-    float: left;
-    width: 280px;
-  }
-
-}
-/*css reponse 1280*/
-@include respond-to($break-1280){
-  .box-content-news {
-    .news-box {
-      .content-right{
-        padding-right: 0;
-      }
-    }
-  }
-}
-@include respond-to($break-1065){
-  .box-content-news {
-    .news-box {
-      margin: 20px 20px 30px 20px;
-      padding: 20px;
-      .img-news {
-        width: 100%;
-        height: auto;
-        padding-right: 0;
-      }
-      .content-right {
-        width: 100%;
-        height: auto;
-        line-height: 1.8;
-
-      }
-    }
-  }
-
-
-}
-
-/*css response ipad*/
-@include respond-to($break-768){
-  .content{
-    padding:0 100px;
-  }
-
-  .hashtag {
-    padding: 100px 100px;
-  }
-  footer {
-    .box-footer{
-      .img-logo-organize{
-        width: 100px;
-      }
-    }
-    .logo-footer{
-      padding-top: 100px;
-      img{
-        width:250px;
-      }
-    }
-    .box-footer{
-      font-size: 20px;
-      .contact-footer{
-        width: 80%;
-      }
-    }
-  }
-  /*css tin tuc reponse 768*/
-  .news-section {
-    .title-content-news {
-      font-size: 40px;
-      margin-top: 0;
-      margin-bottom: 25px;
-      margin-right: 290px;
-    }
-  }
-  .title-head {
-    .box-title-news {
-      height: 70px;
-      background: #c6c4c5;
-      margin-left: 60px;
+    .box-content-news{
+      width: calc(100% - 310px);
+      float: left;
+      background: #807e7f;
+      min-height: 500px;
       margin-right: 30px;
+      margin-bottom: 30px;
+      .news-box{
+        margin: 30px 30px 40px 30px;
+        padding: 40px;
+        background: #ffffff;
+        padding-bottom: 20px;
+        color: #000;
+        &:last-child{
+          margin-bottom: 20px;
+        }
+        .title-news-content{
+          font-size: 40px;
+          margin-bottom: 20px;
+          border-bottom: 3px solid #e4cb57;
+        }
+        .img-news{
+          float: left;
+          width: 430px;
+          height: 300px;
+          padding-right: 30px;
+        }
+        .content-right{
+          float: left;
+          width: calc(100% - 430px);
+          height: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 1.8;
+        }
+        .view-detail{
+          clear: both;
+          padding-top: 20px;
+        }
+      }
+      hr{
+        margin: 0 30px;
+        display: block;
+        border: 0;
+        border-top: 1px solid #000;
+        opacity: 0.3;
+      }
     }
+    aside{
+      float: left;
+      width: 280px;
+    }
+
   }
-  .news-section {
-    padding: 0 30px 0 60px;
-  }
-  .box-content-news {
-    width: calc(100% - 210px);
-    margin-right: 10px;
-  }
-  aside {
-    width: 200px;
-  }
-  .page-number {
-    ul {
-      a {
-        width: 57px;
+  /*css reponse 1280*/
+  @include respond-to($break-1280){
+    .box-content-news {
+      .news-box {
+        .content-right{
+          padding-right: 0;
+        }
       }
     }
   }
-}
+  @include respond-to($break-1065){
+    .box-content-news {
+      .news-box {
+        margin: 20px 20px 30px 20px;
+        padding: 20px;
+        .img-news {
+          width: 100%;
+          height: auto;
+          padding-right: 0;
+        }
+        .content-right {
+          width: 100%;
+          height: auto;
+          line-height: 1.8;
 
-/*css 480*/
-@include respond-to($break-480){
-  .logo-nvda {
-    img {
+        }
+      }
+    }
+
+
+  }
+
+  /*css response ipad*/
+  @include respond-to($break-768){
+    .content{
+      padding:0 100px;
+    }
+
+    .hashtag {
+      padding: 100px 100px;
+    }
+    footer {
+      .box-footer{
+        .img-logo-organize{
+          width: 100px;
+        }
+      }
+      .logo-footer{
+        padding-top: 100px;
+        img{
+          width:250px;
+        }
+      }
+      .box-footer{
+        font-size: 20px;
+        .contact-footer{
+          width: 80%;
+        }
+      }
+    }
+    /*css tin tuc reponse 768*/
+    .news-section {
+      .title-content-news {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        margin-right: 290px;
+      }
+    }
+    .title-head {
+      .box-title-news {
+        height: 70px;
+        background: #c6c4c5;
+        margin-left: 60px;
+        margin-right: 30px;
+      }
+    }
+    .news-section {
+      padding: 0 30px 0 60px;
+    }
+    .box-content-news {
+      width: calc(100% - 210px);
+      margin-right: 10px;
+    }
+    aside {
       width: 200px;
     }
+    .page-number {
+      ul {
+        a {
+          width: 57px;
+        }
+      }
+    }
+    /*css menu ipad 768*/
+    nav {
+      .logo-nav-nvda {
+        height: 33px;
+        bottom: 13px;
+        left: 20px;
+      }
+      .menu-top-scroll {
+        @include justify-content(flex-end);
+      }
+    }
+    .nav-top.stick-scroll {
+      .menu-top-scroll {
+        margin-top: 12px;
+      }
+    }
+    .nav-top.stick-scroll {
+      height: 60px;
+    }
+    .intro-video {
+      .logo-video-nvda {
+        width: 150px;
+      }
+    }
+
   }
-  .logo-nvda, .slider-nvda {
-    .regular{
-      width: 95%;
-      height: 200px;
-      margin: auto;
+
+  /*css 480*/
+  @include respond-to($break-480){
+    .news-section {
+      padding: 0 10px 0 20px;
+    }
+    .title-head {
+      .box-title-news {
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+    }
+    .logo-nvda {
       img {
-        width: 100%;
+        width: 200px;
+      }
+    }
+    .logo-nvda, .slider-nvda {
+      .regular{
+        width: 95%;
         height: 200px;
         margin: auto;
-      }
-    }
-  }
-  .title-bg {
-    .box-title {
-      .du-thi {
-        width: 150px;
-        background-size: 100% 100%;
-      }
-      .img-top {
-        display: block;
-        height: 40px;
-      }
-      .thi-sinh {
-        width: 150px;
-        background-size: 100% 100%;
-      }
-    }
-  }
-  .intro-video {
-    .my-video-dimensions{
-      height:300px;
-    }
-  }
-  .title-head {
-    .label-head{
-      bottom: -50px;
-    }
-    .row-bar {
-      background-size: 100%;
-    }
-  }
-  .content {
-    padding: 0 20px;
-  }
-  .hashtag {
-    padding: 50px 20px;
-    display: block;
-    .tag-name {
-      font-size: 15px;
-    }
-  }
-  footer {
-    .box-footer{
-      float: none;
-      width: 100%;
-      .contact-footer {
-        text-align: center;
-        width: 100%;
-        padding-bottom: 30px;
-      }
-    }
-    .logo-footer {
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-    .donors{
-      img{
-        padding: 0 5px;
-        height: 50px;
-      }
-    }
-  }
-  /*nav mobile*/
-  .stick-scroll{
-    .btn-menu{
-      top: 10px;
-    }
-  }
-  .nav-top.stick-scroll{
-    height: 50px;
-    .menu-top-scroll{
-      top:0;
-    }
-  }
-  nav{
-    position: relative;
-    height: 20px;
-    padding-bottom: 0;
-    .logo-nav-nvda {
-      height: 35px;
-    }
-    .btn-menu{
-      display: block;
-    }
-    .menu-top-scroll {
-      @include flex;
-      margin: auto;
-      position: absolute;
-      @include flex-direction(column);
-      top: -20px;
-      right: 0;
-      background: #fff;
-      z-index: 999;
-      width: 100%;
-      display: none;
-      opacity: 0.7;
-      .btn-close{
-        display: block;
-        position: relative;
-        height: 12px;
-        .close-x{
-          position: absolute;
-          top: 1px;
-          right: 10px;
+        img {
+          width: 100%;
+          height: 200px;
+          margin: auto;
         }
       }
     }
-    .menu-detail {
-      width: 100%;
-      a {
-        width:100%;
-        margin-left: 0;
-        height: 40px;
+    .title-bg {
+      .box-title {
+        .du-thi {
+          width: 150px;
+          background-size: 100% 100%;
+        }
+        .img-top {
+          display: block;
+          height: 40px;
+        }
+        .thi-sinh {
+          width: 150px;
+          background-size: 100% 100%;
+        }
       }
     }
-  }
-  .btn-menu{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: -10px;
-    right: 10px;
-    opacity: 0.6;
-    cursor: pointer;
-  }
-  /*css form sigup*/
-  .form-row {
-    .many-text{
+    .intro-video {
+      .my-video-dimensions{
+        height:300px;
+      }
+    }
+    .title-head {
+      .label-head{
+        bottom: -50px;
+      }
+      .row-bar {
+        background-size: 100%;
+      }
+    }
+    .content {
+      padding: 0 20px;
+    }
+    .hashtag {
+      padding: 50px 20px;
       display: block;
+      .tag-name {
+        font-size: 15px;
+      }
     }
-    .many-text {
-      .uniform{
+    footer {
+      .box-footer{
+        float: none;
         width: 100%;
-        margin: 0;
+        .contact-footer {
+          text-align: center;
+          width: 100%;
+          padding-bottom: 30px;
+        }
+      }
+      .logo-footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .donors{
+        img{
+          padding: 0 5px;
+          height: 50px;
+        }
+      }
+    }
+    /*nav mobile*/
+    .stick-scroll{
+      .btn-menu{
+        top: 10px;
+      }
+    }
+    .nav-top.stick-scroll{
+      height: 50px;
+      .menu-top-scroll{
+        top:50px;
+      }
+    }
+    .nav-top.stick-scroll {
+      .menu-top-scroll {
+        margin-top: 0;
+      }
+    }
+    nav{
+      position: relative;
+      height: 20px;
+      padding-bottom: 0;
+      .logo-nav-nvda {
+        height: 35px;
+      }
+      .btn-menu{
+        display: block;
+      }
+      .menu-top-scroll {
+        @include flex;
+        margin: auto;
+        position: absolute;
+        @include flex-direction(column);
+        top: -20px;
+        right: 0;
+        background: #fff;
+        z-index: 999;
+        width: 100%;
+        display: none;
+        opacity: 0.9;
+        .btn-close{
+          display: block;
+          position: relative;
+          height: 12px;
+          .close-x{
+            position: absolute;
+            top: 1px;
+            right: 10px;
+          }
+        }
+      }
+      .menu-detail {
+        width: 100%;
+        a {
+          width:100%;
+          margin-left: 0;
+          height: 40px;
+        }
+      }
+    }
+    .btn-menu{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      opacity: 0.6;
+      cursor: pointer;
+    }
+    /*css form sigup*/
+    .form-row {
+      .many-text{
+        display: block;
+      }
+      .many-text {
+        .uniform{
+          width: 100%;
+          margin: 0;
+        }
+      }
+    }
+    /*css reponse tin tuc*/
+    .news-section {
+      .title-content-news {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        margin-right: 0;
+      }
+    }
+    .box-content-news {
+      width: 100%;
+      margin-right: 10px;
+      .news-box {
+        margin: 10px 10px 15px 10px;
+        padding: 20px;
+        .title-news-content {
+          font-size: 25px;
+          margin-bottom: 10px;
+          border-bottom: 2px solid #e4cb57;
+        }
+        .content-right {
+          height: 52px;
+        }
+        .view-detail {
+          clear: both;
+          padding-top: 10px;
+        }
+      }
+    }
+    aside {
+      float: left;
+      width: 100%;
+      margin-bottom: 20px;
+      display: none;
+    }
+    .page-number {
+      margin-bottom: 30px;
+      ul {
+        a {
+          width: 38px;
+          height: 35px;
+          display: block;
+          text-align: center;
+          line-height: 35px;
+          color: #000000;
+        }
       }
     }
   }
-  /*css reponse tin tuc*/
-  .news-section {
-    .title-content-news {
-      font-size: 40px;
-      margin-top: 0;
-      margin-bottom: 25px;
-      margin-right: 0;
-    }
-  }
-  .box-content-news {
-    width: 100%;
-    margin-right: 10px;
-    .news-box {
-      margin: 10px 10px 15px 10px;
-      padding: 20px;
-      .title-news-content {
-        font-size: 25px;
-        margin-bottom: 10px;
-        border-bottom: 2px solid #e4cb57;
-      }
-      .content-right {
-        height: 52px;
-      }
-      .view-detail {
-        clear: both;
-        padding-top: 10px;
+
+
+
+  /*css 320*/
+  @include respond-to($break-320){
+    .intro-video {
+      .my-video-dimensions{
+        height:300px;
       }
     }
-  }
-  aside {
-    float: left;
-    width: 100%;
-    margin-bottom: 20px;
-    display: none;
+    .title-head {
+      .label-head{
+        bottom: -50px;
+      }
+      .row-bar {
+        background-size: 100%;
+      }
+    }
+    .content {
+      padding: 0 20px;
+    }
+    .hashtag {
+      padding: 50px 20px;
+      display: block;
+      .tag-name {
+        font-size: 15px;
+      }
+    }
+    footer {
+      .box-footer{
+        float: none;
+        width: 100%;
+        .contact-footer {
+          text-align: center;
+          width: 100%;
+          padding-bottom: 30px;
+        }
+      }
+      .logo-footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .donors{
+        img{
+          padding: 0 5px;
+          height: 50px;
+        }
+      }
+    }
+    /*nav mobile 320*/
+    .stick-scroll{
+      .btn-menu{
+        top: 10px;
+      }
+    }
+    .nav-top.stick-scroll{
+      .menu-top-scroll{
+        top:0;
+      }
+    }
+    nav{
+      position: relative;
+      height: 20px;
+      padding-bottom: 0;
+      .btn-menu{
+        display: block;
+      }
+      .menu-top-scroll {
+        @include flex;
+        margin: auto;
+        position: absolute;
+        @include flex-direction(column);
+        top: -20px;
+        right: 0;
+        background: #fff;
+        z-index: 999;
+        width: 100%;
+        display: none;
+        .btn-close{
+          display: block;
+          position: relative;
+          height: 12px;
+          .close-x{
+            position: absolute;
+            top: 1px;
+            right: 10px;
+          }
+        }
+      }
+      .menu-detail {
+        width: 100%;
+        a {
+          width:100%;
+          margin-left: 0;
+          height: 40px;
+        }
+      }
+    }
+    .btn-menu{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      opacity: 0.6;
+      cursor: pointer;
+    }
   }
   .page-number {
-    margin-bottom: 30px;
     ul {
       a {
-        width: 25px;
-        height: 35px;
-        display: block;
-        text-align: center;
-        line-height: 35px;
-        color: #000000;
+        width: 24px;
       }
     }
-  }
-}
-
-
-
-/*css 320*/
-@include respond-to($break-320){
-  .intro-video {
-    .my-video-dimensions{
-      height:300px;
-    }
-  }
-  .title-head {
-    .label-head{
-      bottom: -50px;
-    }
-    .row-bar {
-      background-size: 100%;
-    }
-  }
-  .content {
-    padding: 0 20px;
-  }
-  .hashtag {
-    padding: 50px 20px;
-    display: block;
-    .tag-name {
-      font-size: 15px;
-    }
-  }
-  footer {
-    .box-footer{
-      float: none;
-      width: 100%;
-      .contact-footer {
-        text-align: center;
-        width: 100%;
-        padding-bottom: 30px;
-      }
-    }
-    .logo-footer {
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-    .donors{
-      img{
-        padding: 0 5px;
-        height: 50px;
-      }
-    }
-  }
-  /*nav mobile 320*/
-  .stick-scroll{
-    .btn-menu{
-      top: 10px;
-    }
-  }
-  .nav-top.stick-scroll{
-    .menu-top-scroll{
-      top:0;
-    }
-  }
-  nav{
-    position: relative;
-    height: 20px;
-    padding-bottom: 0;
-    .btn-menu{
-      display: block;
-    }
-    .menu-top-scroll {
-      @include flex;
-      margin: auto;
-      position: absolute;
-      @include flex-direction(column);
-      top: -20px;
-      right: 0;
-      background: #fff;
-      z-index: 999;
-      width: 100%;
-      display: none;
-      .btn-close{
-        display: block;
-        position: relative;
-        height: 12px;
-        .close-x{
-          position: absolute;
-          top: 1px;
-          right: 10px;
-        }
-      }
-    }
-    .menu-detail {
-      width: 100%;
-      a {
-        width:100%;
-        margin-left: 0;
-        height: 40px;
-      }
-    }
-  }
-  .btn-menu{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: -10px;
-    right: 10px;
-    opacity: 0.6;
-    cursor: pointer;
   }
 }
 
