@@ -54,63 +54,36 @@
     <article class="title-head">
         <div class="row-bar"></div>
         <div class="label-head">Thí Sinh</div>
-        <div class="box-title-news"></div>
+        <div class="box-title-photos"></div>
     </article>
 </header>
-<section class="news-section">
-    <div class="title-content-news">Tin tức</div>
-    <article class="box-content-news">
-        <div class="news-box">
-            <a class="title-news-content" href="#">Title</a>
-            <a href="#"><img class="img-news" src="images/news.jpg" alt=""></a>
-            <div class="content-right">
-                Một số cử tri đề nghị thành phố tập trung giải quyết những vấn đề liên quan đến ranh giới đất đai giữa địa phương với quốc phòng.
-
-                Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ không được giải quyết nhanh và tích cực thì có thể nảy sinh thành vấn đề lớn.
+<section class="photo-section">
+    <div class="title-content-photos">Hình Ảnh</div>
+    <article>
+        <div class="box-image-show">
+            <div class="img-show">
+                
             </div>
-            <div class="view-detail"><a href="#">Xem thêm...</a></div>
-        </div>
-        <hr>
-        <div class="news-box">
-            <div class="title-news-content">Title</div>
-            <img class="img-news" src="images/news.jpg" alt="">
-            <div class="content-right">
-                Một số cử tri đề nghị thành phố tập trung giải quyết những vấn đề liên quan đến ranh giới đất đai giữa địa phương với quốc phòng.
-
-                Tiếp thu ý kiến, Bí thư Hà Nội cho rằng, đây là lĩnh vực mà những việc nhỏ không được giải quyết nhanh và tích cực thì có thể nảy sinh thành vấn đề lớn.
+            <div class="slider-show">
+                <div class="box-show-small"></div>
+                <div class="box-show-small"></div>
+                <div class="box-show-small"></div>
+                <div class="box-show-small"></div>
+                <div class="box-show-small"></div>
             </div>
-            <div class="view-detail"><a href="#">Xem thêm...</a></div>
         </div>
-
-
+        <div class="title-content-photos">Album</div>
+        <div class="content-images">
+            <div class="image-album"></div>
+            <div class="image-album"></div>
+            <div class="image-album"></div>
+            <div class="image-album"></div>
+            <div class="image-album"></div>
+            <div class="image-album"></div>
+            <div class="image-album"></div>
+            <div class="image-album"></div>
+        </div>
     </article>
-    <aside>
-        <div class="box-ad-news">
-            <a href="#"><img src="images/quang cao.jpg" alt=""></a>
-        </div>
-
-        <div class="box-ad-news">
-            <a href="#"><img src="images/quang cao.jpg" alt=""></a>
-        </div>
-
-    </aside>
-    <div class="clear-fix"></div>
-    <div class="page-number">
-        <ul>
-            <li ><a class="btn-prev" href="#"><img src="images/btn-page.jpg" alt=""></a></li>
-            <li><a href="#">1</a></li
-            <li><a href="#">2</a></li
-            <li><a href="#">3</a></li
-            <li><a href="#">4</a></li
-            <li><a href="#">5</a></li
-            <li><a href="#">6</a></li
-            <li><a href="#">7</a></li
-            <li><a href="#">8</a></li
-            <li><a href="#">9</a></li
-            <li><a href="#">10</a></li
-            <li><a class="btn-next" href="#"><img src="images/btn-page.jpg" alt=""></a></li>
-        </ul>
-    </div>
 </section>
 <footer>
     <div class="box-footer">

@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tin tuc</title>
+    <title>Thi sinh</title>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link href="css/video-js.css" rel="stylesheet">
     <script src="js/videojs-ie8.min.js"></script>
@@ -59,31 +59,35 @@
 </header>
 <section class="photo-section">
     <div class="title-content-photos">Hình Ảnh</div>
-    <article>
-        <div class="box-image-show">
-            <div class="img-show">
-                
-            </div>
-            <div class="slider-show">
-                <div class="box-show-small"></div>
-                <div class="box-show-small"></div>
-                <div class="box-show-small"></div>
-                <div class="box-show-small"></div>
-                <div class="box-show-small"></div>
-            </div>
+    <ul class="box-round">
+        <li>Vòng</li>
+        <li>Vòng 1</li>
+        <li>Vòng 2</li>
+        <li>Vòng 3</li>
+        <li>Vòng Bán Kết</li>
+        <li>Vòng Chung Kết</li>
+    </ul>
+    <div class="content-left">
+        <div class="avatar-candidates-detail">
+            <img class="avatar" src="images/avatar.jpg" alt="">
+            <span class="full-name">Phan Hương Ly</span>
         </div>
-        <div class="title-content-photos">Album</div>
-        <div class="content-images">
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
+        <ul class="info-candi">
+            <li>Tuổi: 23</li>
+            <li>Khu vực: Tp.hcm</li>
+            <li>Chiều cao: 1.6m</li>
+            <li>Cân nặng: 50kg </li>
+        </ul>
+        <p class="introduce">
+            Chiều 2/5, ông Lê Đình Kình (82 tuổi) người bị thương vì xô xát khi giải phóng mặt bằng ở xã Đồng Tâm (Mỹ Đức) đã xuất viện trong sự chờ đón của hàng nghìn người.
+        </p>
+    </div>
+    <div class="content-right">
+        <div class="box-img">
+            <img src="images/05.jpg" alt="">
         </div>
-    </article>
+    </div>
+    <div class="clear-fix"></div>
 </section>
 <footer>
     <div class="box-footer">

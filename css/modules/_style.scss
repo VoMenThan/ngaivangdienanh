@@ -444,6 +444,131 @@ footer{
     color: red;
   }
 }
+/*css page hình ảnh*/
+.title-head{
+  .box-title-photos{
+    height: 140px;
+    background: #c6c4c5;
+    width: 1700px;
+    margin: auto;
+  }
+}
+.photo-section{
+  width: 1700px;
+  margin: auto;
+  .title-content-photos{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 430px;
+  }
+}
+.box-image-show{
+  .img-show{
+    width: 100%;
+    height: 700px;
+    background: $cl-brown;
+    margin-bottom: 40px;
+  }
+  .slider-show{
+    @include flex;
+    @include justify-content(center);
+    margin-bottom: 100px;
+    .box-show-small{
+      background: $cl-brown;
+      width: 20%;
+      height: 170px;
+      margin-right: 40px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
+.content-images{
+  @include flex;
+  @include flex-wrap(wrap);
+  margin-bottom: 100px;
+  .image-album{
+    width: calc(33.3% - 40px);
+    height: 262px;
+    background: $cl-brown;
+    margin-bottom: 70px;
+    margin-right: 60px;
+    &:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+}
+/* css hinh anh thi sinh vong loai */
+.box-image-show-candidates{
+  .img-show-candidates{
+    width: 80%;
+    height:700px;
+    margin: auto;
+    background: $cl-brown;
+    margin-bottom: 160px;
+  }
+  .slider-show-candidates{
+    margin-bottom: 180px;
+    @include flex;
+    .box-show-candidates{
+      width: 50%;
+      height: 400px;
+      background: $cl-brown;
+      margin-right: 45px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
+/*css chi tiet thi sinh*/
+.content-left{
+  width: 40%;
+  border-right: 2px solid $cl-yellow;
+  float: left;
+  color: #fff;
+  .info-candi{
+    border-bottom: 1px solid #ffffff;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  .avatar-candidates-detail{
+    margin-bottom: 20px;
+    position: relative;
+    .avatar{
+      width: 450px;
+    }
+    .full-name{
+      font-size: 50px;
+      word-break: break-all;
+      height: 200px;
+      width: 150px;
+      position: absolute;
+      right: 60px;
+      top: 30%;
+    }
+  }
+  .introduce{
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 1.8;
+  }
+}
+.content-right{
+  width: 60%;
+  float: left;
+  .box-img{
+    img{
+      width: 800px;
+      margin: auto;
+      display: block;
+    }
+  }
+}
 .clear-fix:after{
   content: '';
   display: table;
@@ -874,9 +999,6 @@ footer{
       }
     }
   }
-
-
-
   /*css 320*/
   @include respond-to($break-320){
     .intro-video {
