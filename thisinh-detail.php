@@ -60,12 +60,24 @@
 <section class="photo-section">
     <div class="title-content-photos">Hình Ảnh</div>
     <ul class="box-round">
-        <li>Vòng</li>
-        <li>Vòng 1</li>
-        <li>Vòng 2</li>
-        <li>Vòng 3</li>
-        <li>Vòng Bán Kết</li>
-        <li>Vòng Chung Kết</li>
+        <li>
+            <a class="round" href="#">Vòng</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng 1</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng 2</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng 3</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng Bán Kết</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng Chung Kết</a>
+        </li>
     </ul>
     <div class="content-left">
         <div class="avatar-candidates-detail">
@@ -79,6 +91,8 @@
             <li>Cân nặng: 50kg </li>
         </ul>
         <p class="introduce">
+            Chiều 2/5, ông Lê Đình Kình (82 tuổi) người bị thương vì xô xát khi giải phóng mặt bằng ở xã Đồng Tâm (Mỹ Đức) đã xuất viện trong sự chờ đón của hàng nghìn người.
+            Chiều 2/5, ông Lê Đình Kình (82 tuổi) người bị thương vì xô xát khi giải phóng mặt bằng ở xã Đồng Tâm (Mỹ Đức) đã xuất viện trong sự chờ đón của hàng nghìn người.
             Chiều 2/5, ông Lê Đình Kình (82 tuổi) người bị thương vì xô xát khi giải phóng mặt bằng ở xã Đồng Tâm (Mỹ Đức) đã xuất viện trong sự chờ đón của hàng nghìn người.
         </p>
     </div>

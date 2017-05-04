@@ -456,11 +456,24 @@ footer{
 .photo-section{
   width: 1700px;
   margin: auto;
+  margin-bottom: 50px;
   .title-content-photos{
     font-size: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-right: 430px;
+  }
+  .title-image{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+.album-photo-candi{
+  .box-round{
+    margin: auto;
+    margin-bottom: 30px;
   }
 }
 .box-image-show{
@@ -491,16 +504,34 @@ footer{
   margin-bottom: 100px;
   .image-album{
     width: calc(33.3% - 40px);
-    height: 262px;
+    height: 282px;
     background: $cl-brown;
     margin-bottom: 70px;
     margin-right: 60px;
+    img{
+      width: 100%;
+      height:100%;
+    }
     &:nth-child(3n){
       margin-right: 0;
     }
   }
 }
 /* css hinh anh thi sinh vong loai */
+.album-photo-candi{
+  .label-image{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #000000;
+    opacity: 0.5;
+    text-align: left;
+    padding: 20px;
+  }
+}
+.lable-possiton{
+  position: relative;
+}
 .box-image-show-candidates{
   .img-show-candidates{
     width: 80%;
@@ -508,15 +539,23 @@ footer{
     margin: auto;
     background: $cl-brown;
     margin-bottom: 160px;
+    overflow: hidden;
+    img{
+      width:100%;
+    }
   }
   .slider-show-candidates{
     margin-bottom: 180px;
     @include flex;
     .box-show-candidates{
       width: 50%;
-      height: 400px;
+      height: 440px;
       background: $cl-brown;
       margin-right: 45px;
+      img{
+        width: 100%;
+        height:100%;
+      }
       &:last-child{
         margin-right: 0;
       }
@@ -524,6 +563,34 @@ footer{
   }
 }
 /*css chi tiet thi sinh*/
+.photo-section{
+  position: relative;
+  .box-round{
+    @include flex;
+    width: 60%;
+    @include align-items(center);
+    @include justify-content(center);
+    position: absolute;
+    top: 0;
+    right: 0;
+    .round{
+      display: block;
+      list-style-type: none;
+      width: 134px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      color: #000;
+      padding-right: 10px;
+      background: -webkit-gradient(linear, 80% 43%, 0% 38%, from(#f2df81), to(#b68832));
+    }
+  }
+}
+.album-photo-candi{
+  .box-round{
+    position: relative;
+  }
+}
 .content-left{
   width: 40%;
   border-right: 2px solid $cl-yellow;
@@ -760,7 +827,7 @@ footer{
         left: 20px;
       }
       .menu-top-scroll {
-        @include justify-content(flex-end);
+        @include justify-content(center);
       }
     }
     .nav-top.stick-scroll {
@@ -776,6 +843,68 @@ footer{
         width: 150px;
       }
     }
+    /*css chi tiet thí sinh*/
+  .photo-section {
+  width: 100%;
+    .title-content-photos{
+      margin-left: 20px;
+    }
+    .box-round{
+      position: static;
+      justify-content: center;
+      margin: auto;
+      margin-bottom: 20px;
+      .round{
+        display: block;
+        width: 121px;
+      }
+    }
+  }
+  .content-left{
+    width: 100%;
+    padding: 20px;
+  }
+  .content-right{
+      width: 100%;
+    .box-img{
+      img{
+        width: auto;
+        max-width: 90%;
+      }
+    }
+  }
+    /*css hinh anh thi sinh*/
+    .album-photo-candi {
+      .label-image {
+          padding: 10px;
+      }
+    }
+  .box-image-show-candidates {
+    .img-show-candidates{
+      height:330px;
+      margin-bottom: 100px;
+    }
+   .slider-show-candidates {
+     margin-right: 20px;
+     margin-left: 20px;
+     margin-bottom: 110px;
+     .box-show-candidates{
+       height: 200px;
+       margin-right: 20px;
+     }
+   }
+  }
+  .content-images{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    .image-album {
+      width: calc(33.3% - 14px);
+      height: 120px;
+      margin-bottom: 50px;
+      margin-right: 20px
+    }
+  }
 
   }
 
@@ -998,6 +1127,75 @@ footer{
         }
       }
     }
+/*css chi tiet hinh anh*/
+    .photo-section {
+      .title-content-photos {
+        margin-right: 0;
+      }
+      .box-round{
+        width:100%;
+        margin-bottom: 0;
+        @include flex-direction(column);
+        li{
+          width:80%;
+        }
+        .round{
+          width:100%;
+          height:60px;
+          line-height: 60px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .content-left {
+      .introduce{
+        width:80%;
+      }
+      .avatar-candidates-detail {
+        .avatar {
+          width: 350px;
+        }
+        .full-name{
+          width: 100%;
+          position: static;
+          display: block;
+          height: auto;
+        }
+      }
+    }
+    /*css hinh anh thi sinh*/
+    .album-photo-candi {
+      .label-image {
+        padding: 5px;
+      }
+    }
+    .box-image-show-candidates {
+      .img-show-candidates{
+        height:210px;
+        margin-bottom: 70px;
+      }
+      .slider-show-candidates {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 80px;
+        .box-show-candidates{
+          height: 115px;
+          margin-right: 10px;
+        }
+      }
+    }
+    .content-images{
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 80px;
+      .image-album {
+        width: calc(33.3% - 7px);
+        height: 80px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        font-size: 10px;
+      }
+    }
   }
   /*css 320*/
   @include respond-to($break-320){
@@ -1102,6 +1300,19 @@ footer{
       right: 10px;
       opacity: 0.6;
       cursor: pointer;
+    }
+    .content-left {
+      .avatar-candidates-detail {
+        .avatar {
+          width: 275px;
+        }
+        .full-name{
+          font-size: 30px;
+        }
+      }
+      .introduce{
+        width:100%;
+      }
     }
   }
   .page-number {

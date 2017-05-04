@@ -57,25 +57,73 @@
         <div class="box-title-photos"></div>
     </article>
 </header>
-<section class="photo-section">
-    <div class="title-content-photos">Hình Ảnh</div>
+<section class="photo-section album-photo-candi">
+    <div class="title-image">Hình Ảnh</div>
+    <ul class="box-round">
+        <li>
+            <a class="round" href="#">Vòng</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng 1</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng 2</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng 3</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng Bán Kết</a>
+        </li>
+        <li>
+            <a class="round" href="#">Vòng Chung Kết</a>
+        </li>
+    </ul>
     <article>
         <div class="box-image-show-candidates">
-            <div class="img-show-candidates"></div>
+            <div class="img-show-candidates lable-possiton">
+                <img src="images/slider.jpg" alt="">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
             <div class="slider-show-candidates">
-                <div class="box-show-candidates"></div>
-                <div class="box-show-candidates"></div>
+                <div class="box-show-candidates lable-possiton">
+                    <img src="images/slider.jpg" alt="">
+                    <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+                </div>
+                <div class="box-show-candidates lable-possiton">
+                    <img src="images/slider.jpg" alt="">
+                    <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+                </div>
             </div>
         </div>
         <div class="content-images">
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
-            <div class="image-album"></div>
+            <div class="image-album lable-possiton">
+                <img src="images/slider.jpg" alt="">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
+            <div class="image-album lable-possiton">
+                <img src="images/slider.jpg" alt="">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
+            <div class="image-album lable-possiton">
+                <img src="images/slider.jpg" alt="">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
+            <div class="image-album lable-possiton">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
+            <div class="image-album lable-possiton">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
+            <div class="image-album lable-possiton">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
+            <div class="image-album lable-possiton">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
+            <div class="image-album lable-possiton">
+                <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
+            </div>
         </div>
     </article>
 </section>
