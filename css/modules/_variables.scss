@@ -13,13 +13,14 @@ $cl-or: #e04501;
 $cl-bl: #26ade4;
 $cl-ori: #7d7d7d;
 $cl-sav: #8dc63f;
-$cl-line: #e1e1e2;
-$cl-brown2: #4e3e34;
+$cl-yellow: #e4cb57;
+$cl-brown: #c6c4c5;
 $cl-black: #000;
 $cl-ac: #ffbebe;
 $cl-bg: #e9e1bd;
 
 // responsive breakpoint variables
+$break-1680 : 1680px;
 $break-1441 : 1441px;
 $break-1440 : 1440px;
 $break-1366 : 1366px;
@@ -73,6 +74,12 @@ $break-320 : 320px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+@mixin flex-wrap($fix){
+  -webkit-flex-wrap: $fix;
+  -ms-flex-wrap: $fix;
+  flex-wrap: $fix;
 }
 
 @mixin justify-content($fix){

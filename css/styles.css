@@ -570,20 +570,17 @@ footer {
   margin-bottom: 100px; }
   .content-images .image-album {
     width: calc(33.3% - 40px);
-    height: 282px;
-    background: #c6c4c5;
     margin-bottom: 70px;
     margin-right: 60px; }
     .content-images .image-album img {
-      width: 100%;
-      height: 100%; }
+      width: 100%; }
     .content-images .image-album:nth-child(3n) {
       margin-right: 0; }
 
 /* css hinh anh thi sinh vong loai */
 .album-photo-candi .label-image {
   position: absolute;
-  bottom: 0;
+  bottom: 4px;
   width: 100%;
   background: #000000;
   opacity: 0.5;
@@ -595,14 +592,11 @@ footer {
 
 .box-image-show-candidates .img-show-candidates {
   width: 80%;
-  height: 700px;
   margin: auto;
-  background: #c6c4c5;
   margin-bottom: 160px;
   overflow: hidden; }
   .box-image-show-candidates .img-show-candidates img {
-    width: 100%;
-    height: 100%; }
+    width: 100%; }
 .box-image-show-candidates .slider-show-candidates {
   margin-bottom: 180px;
   display: -webkit-box;
@@ -611,12 +605,9 @@ footer {
   display: flex; }
   .box-image-show-candidates .slider-show-candidates .box-show-candidates {
     width: 50%;
-    height: 440px;
-    background: #c6c4c5;
     margin-right: 45px; }
     .box-image-show-candidates .slider-show-candidates .box-show-candidates img {
-      width: 100%;
-      height: 100%; }
+      width: 100%; }
     .box-image-show-candidates .slider-show-candidates .box-show-candidates:last-child {
       margin-right: 0; }
 
@@ -707,6 +698,8 @@ footer {
     width: calc(100% - 700px);
     height: 400px;
     padding-right: 20px; }
+  .box-content-news .photo-section {
+    width: 1500px; }
 
   /*css 1440*/ }
 @media only screen and (max-width: 1680px) and (max-width: 1440px) {
@@ -762,7 +755,11 @@ footer {
 
   aside {
     float: left;
-    width: 280px; } }
+    width: 280px; }
+
+  /*css thi sinh image*/
+  .photo-section {
+    width: 1400px; } }
 @media only screen and (max-width: 1680px) {
   /*css reponse 1280*/ }
 @media only screen and (max-width: 1680px) and (max-width: 1280px) {
@@ -875,7 +872,6 @@ footer {
     padding: 10px; }
 
   .box-image-show-candidates .img-show-candidates {
-    height: 330px;
     margin-bottom: 100px; }
   .box-image-show-candidates .slider-show-candidates {
     margin-right: 20px;
@@ -891,9 +887,11 @@ footer {
     margin-bottom: 100px; }
     .content-images .image-album {
       width: calc(33.3% - 14px);
-      height: 120px;
       margin-bottom: 50px;
-      margin-right: 20px; } }
+      margin-right: 20px; }
+
+  .box-show-candidates .label-image {
+    bottom: 6px; } }
 @media only screen and (max-width: 1680px) {
   /*css 480*/ }
 @media only screen and (max-width: 1680px) and (max-width: 480px) {
@@ -1072,8 +1070,8 @@ footer {
   .photo-section .title-content-photos {
     margin-right: 0; }
   .photo-section .box-round {
+    margin-bottom: 50px;
     width: 100%;
-    margin-bottom: 0;
     -webkit-box-orient: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -1101,26 +1099,42 @@ footer {
     padding: 5px; }
 
   .box-image-show-candidates .img-show-candidates {
-    height: 210px;
+    height: auto;
+    width: 95%;
     margin-bottom: 70px; }
   .box-image-show-candidates .slider-show-candidates {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 80px; }
+    width: 95%;
+    margin: auto;
+    -webkit-box-orient: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 50px; }
     .box-image-show-candidates .slider-show-candidates .box-show-candidates {
-      height: 115px;
-      margin-right: 10px; }
+      height: 100%;
+      margin-right: 10px;
+      width: 100%;
+      margin-bottom: 20px; }
 
   .content-images {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 80px; }
+    width: 95%;
+    margin: auto; }
     .content-images .image-album {
-      width: calc(33.3% - 7px);
-      height: 80px;
+      width: calc(50% - 5px);
       margin-bottom: 30px;
-      margin-right: 10px;
-      font-size: 10px; } }
+      margin-right: 5px;
+      font-size: 10px; }
+      .content-images .image-album:nth-child(3n) {
+        margin-right: 5px; }
+      .content-images .image-album:nth-child(2n) {
+        margin-right: 0;
+        margin-left: 5px; }
+
+  .image-album .label-image {
+    bottom: 3px; }
+
+  .box-show-candidates .label-image {
+    bottom: 4px; } }
 @media only screen and (max-width: 1680px) {
   /*css 320*/ }
 @media only screen and (max-width: 1680px) and (max-width: 320px) {
