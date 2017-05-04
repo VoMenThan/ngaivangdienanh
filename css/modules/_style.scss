@@ -635,22 +635,37 @@ footer{
 }
 /*css 1680*/
 @include respond-to($break-1680) {
-.box-content-news {
-  .news-box {
-    .img-news {
-      width: 700px;
-      height: 400px;
-      padding-right: 20px;
-    }
-    .content-right {
-      float: left;
-      width: calc(100% - 700px);
-      height: 400px;
-      padding-right: 20px;
+  .box-content-news {
+    .news-box {
+      .img-news {
+        width: 700px;
+        height: 400px;
+        padding-right: 20px;
+      }
+      .content-right {
+        float: left;
+        width: calc(100% - 700px);
+        height: 400px;
+        padding-right: 20px;
+      }
     }
   }
-  .photo-section{
+  .photo-section {
     width: 1500px;
+  }
+  .content-left {
+    .avatar-candidates-detail {
+      .full-name{
+        right: 30px;
+      }
+    }
+  }
+  .content-left {
+    .avatar-candidates-detail {
+      .avatar{
+        width: 400px;
+      }
+    }
   }
 }
 
@@ -722,6 +737,13 @@ footer{
     .photo-section{
       width: 1400px;
     }
+    .content-left {
+      .avatar-candidates-detail {
+        .avatar{
+          width: 360px;
+        }
+      }
+    }
   }
   /*css reponse 1280*/
   @include respond-to($break-1280){
@@ -730,6 +752,26 @@ footer{
         .content-right{
           padding-right: 0;
         }
+      }
+    }
+    .photo-section{
+      width: 1200px;
+      .box-round {
+        .round{
+          width:122px;
+        }
+      }
+    }
+    .content-left {
+      .avatar-candidates-detail {
+        .avatar{
+          width: 295px;
+        }
+      }
+    }
+    .content-right {
+      .box-img img{
+        width:80%;
       }
     }
   }
@@ -751,8 +793,38 @@ footer{
         }
       }
     }
-
-
+    .photo-section{
+      width: 1000px;
+      .box-round {
+        top: 10px;
+        right: 60px;
+        .round{
+          width:122px;
+        }
+      }
+    }
+    .content-left {
+      .avatar-candidates-detail {
+        .avatar {
+          width: 260px;
+        }
+      }
+      .avatar-candidates-detail {
+        .full-name {
+          font-size: 40px;
+          word-break: break-all;
+          width: 120px;
+          position: absolute;
+          right: 10px;
+          top: 15%;
+        }
+      }
+    }
+    .content-right {
+      .box-img img{
+        width:80%;
+      }
+    }
   }
 
   /*css response ipad*/
@@ -1337,14 +1409,16 @@ footer{
       }
     }
   }
-  .page-number {
+
+
+.page-number {
     ul {
       a {
         width: 24px;
       }
     }
   }
-}
+
 
 
 

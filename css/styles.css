@@ -698,11 +698,17 @@ footer {
     width: calc(100% - 700px);
     height: 400px;
     padding-right: 20px; }
-  .box-content-news .photo-section {
+
+  .photo-section {
     width: 1500px; }
 
-  /*css 1440*/ }
-@media only screen and (max-width: 1680px) and (max-width: 1440px) {
+  .content-left .avatar-candidates-detail .full-name {
+    right: 30px; }
+
+  .content-left .avatar-candidates-detail .avatar {
+    width: 400px; } }
+/*css 1440*/
+@media only screen and (max-width: 1440px) {
   .news-section {
     padding: 0 60px 0 160px; }
     .news-section .title-content-news {
@@ -759,13 +765,26 @@ footer {
 
   /*css thi sinh image*/
   .photo-section {
-    width: 1400px; } }
-@media only screen and (max-width: 1680px) {
-  /*css reponse 1280*/ }
-@media only screen and (max-width: 1680px) and (max-width: 1280px) {
+    width: 1400px; }
+
+  .content-left .avatar-candidates-detail .avatar {
+    width: 360px; } }
+/*css reponse 1280*/
+@media only screen and (max-width: 1280px) {
   .box-content-news .news-box .content-right {
-    padding-right: 0; } }
-@media only screen and (max-width: 1680px) and (max-width: 1065px) {
+    padding-right: 0; }
+
+  .photo-section {
+    width: 1200px; }
+    .photo-section .box-round .round {
+      width: 122px; }
+
+  .content-left .avatar-candidates-detail .avatar {
+    width: 295px; }
+
+  .content-right .box-img img {
+    width: 80%; } }
+@media only screen and (max-width: 1065px) {
   .box-content-news .news-box {
     margin: 20px 20px 30px 20px;
     padding: 20px; }
@@ -776,10 +795,30 @@ footer {
     .box-content-news .news-box .content-right {
       width: 100%;
       height: auto;
-      line-height: 1.8; } }
-@media only screen and (max-width: 1680px) {
-  /*css response ipad*/ }
-@media only screen and (max-width: 1680px) and (max-width: 768px) {
+      line-height: 1.8; }
+
+  .photo-section {
+    width: 1000px; }
+    .photo-section .box-round {
+      top: 10px;
+      right: 60px; }
+      .photo-section .box-round .round {
+        width: 122px; }
+
+  .content-left .avatar-candidates-detail .avatar {
+    width: 260px; }
+  .content-left .avatar-candidates-detail .full-name {
+    font-size: 40px;
+    word-break: break-all;
+    width: 120px;
+    position: absolute;
+    right: 10px;
+    top: 15%; }
+
+  .content-right .box-img img {
+    width: 80%; } }
+/*css response ipad*/
+@media only screen and (max-width: 768px) {
   .content {
     padding: 0 100px; }
 
@@ -892,9 +931,8 @@ footer {
 
   .box-show-candidates .label-image {
     bottom: 6px; } }
-@media only screen and (max-width: 1680px) {
-  /*css 480*/ }
-@media only screen and (max-width: 1680px) and (max-width: 480px) {
+/*css 480*/
+@media only screen and (max-width: 480px) {
   .title-bg {
     padding-bottom: 20px; }
 
@@ -1135,9 +1173,8 @@ footer {
 
   .box-show-candidates .label-image {
     bottom: 4px; } }
-@media only screen and (max-width: 1680px) {
-  /*css 320*/ }
-@media only screen and (max-width: 1680px) and (max-width: 320px) {
+/*css 320*/
+@media only screen and (max-width: 320px) {
   .intro-video .my-video-dimensions {
     height: 300px; }
 
@@ -1229,8 +1266,7 @@ footer {
     font-size: 30px; }
   .content-left .introduce {
     width: 100%; } }
-@media only screen and (max-width: 1680px) {
-  .page-number ul a {
-    width: 24px; } }
+.page-number ul a {
+  width: 24px; }
 
 /*# sourceMappingURL=styles.css.map */
