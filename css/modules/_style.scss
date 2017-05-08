@@ -7,27 +7,34 @@ html, body{
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+.intro-main{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  @include translate(-50%, -50%);
+}
 /*css logo*/
 .logo-nvda{
   padding-top: 20px;
   img{
-    width:350px;
+    width:500px;
   }
 }
 .logo-nvda, .slider-nvda{
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   text-align: center;
   .mg-aut{
     margin: auto;
     display: block;
   }
   .regular{
-    width: 600px;
-    height:300px;
-   margin: auto;
+    width: 1000px;
+    height:500px;
+    margin: auto;
     img{
-      width: 600px;
-      height: 300px;
+      width: 1000px;
+      height: 500px;
+      display: block;
     }
   }
 }
@@ -88,7 +95,7 @@ nav{
     }
   }
   .menu-detail{
-    width: 130px;
+    width: 190px;
     text-align: center;
   }
   .logo-nav-nvda{
@@ -677,9 +684,56 @@ footer{
     }
   }
 }
-
+@include respond-to($break-1600) {
+  /*intro css*/
+  .logo-nvda, .slider-nvda{
+    margin-bottom: 40px;
+    .regular{
+      width: 800px;
+      height:400px;
+      img{
+        width: 800px;
+        height: 400px;
+      }
+    }
+  }
+  nav {
+    .menu-detail {
+      width: 160px;
+    }
+  }
+  .logo-nvda {
+    img {
+      width: 450px;
+    }
+  }
+  /*end css intro*/
+}
   /*css 1440*/
   @include respond-to($break-1440) {
+    /*intro css*/
+    .logo-nvda, .slider-nvda{
+      margin-bottom: 40px;
+      .regular{
+        width: 600px;
+        height:300px;
+        img{
+          width: 600px;
+          height: 300px;
+        }
+      }
+    }
+    nav {
+      .menu-detail {
+        width: 130px;
+      }
+    }
+    .logo-nvda {
+      img {
+        width: 350px;
+      }
+    }
+    /*end css intro*/
     .title-head {
       .box-title-photos{
         width: 1400px;
@@ -1017,9 +1071,81 @@ footer{
 
 
   }
-
+@include respond-to($break-640){
+  /*intro css*/
+  .logo-nvda, .slider-nvda{
+    margin-bottom: 40px;
+    .regular{
+      width: 400px;
+      height:200px;
+      img{
+        width: 400px;
+        height: 200px;
+      }
+    }
+  }
+  nav {
+    .menu-detail {
+      width: 100px;
+    }
+  }
+  .menu-detail {
+    a{
+      width: 100px;
+    }
+  }
+  .logo-nvda {
+    img {
+      width: 250px;
+    }
+  }
+  .title-bg {
+    .box-title {
+      .thi-sinh{
+        width: 175px;
+        background-size: 100%;
+      }
+      .du-thi {
+        width: 150px;
+        background-size: 100%;
+      }
+      .img-top{
+        height: 43px;
+      }
+    }
+  }
+  /*end css intro*/
+}
   /*css 480*/
   @include respond-to($break-480){
+    /*intro css*/
+    .logo-nvda, .slider-nvda{
+      margin-bottom: 40px;
+      .regular{
+        width: 400px;
+        height:200px;
+        img{
+          width: 400px;
+          height: 200px;
+        }
+      }
+    }
+    nav {
+      .menu-detail {
+        width: 100px;
+      }
+    }
+    .menu-detail {
+      a{
+        width: 100px;
+      }
+    }
+    .logo-nvda {
+      img {
+        width: 250px;
+      }
+    }
+    /*end css intro*/
     .box-image-show {
       .slider-show{
         margin-bottom: 50px;
@@ -1040,18 +1166,6 @@ footer{
     .logo-nvda {
       img {
         width: 200px;
-      }
-    }
-    .logo-nvda, .slider-nvda {
-      .regular{
-        width: 95%;
-        height: 200px;
-        margin: auto;
-        img {
-          width: 100%;
-          height: 200px;
-          margin: auto;
-        }
       }
     }
     .title-bg {
@@ -1331,9 +1445,29 @@ footer{
         bottom: 4px;
       }
     }
+    .intro-main{
+      nav {
+        .menu-top-scroll {
+          top: -190px;
+        }
+      }
+    }
   }
   /*css 320*/
   @include respond-to($break-320){
+    /*intro css*/
+    .logo-nvda, .slider-nvda{
+      margin-bottom: 40px;
+      .regular{
+        width: 300px;
+        height:150px;
+        img{
+          width: 300px;
+          height: 150px;
+        }
+      }
+    }
+    /*end css intro*/
     .intro-video {
       .my-video-dimensions{
         height:300px;
@@ -1401,7 +1535,6 @@ footer{
         margin: auto;
         position: absolute;
         @include flex-direction(column);
-        top: -20px;
         right: 0;
         background: #fff;
         z-index: 999;

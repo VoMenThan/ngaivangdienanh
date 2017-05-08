@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<section>
+<section class="intro-main">
     <article>
         <div class="logo-nvda">
             <img class="img-logo mg-aut" src="images/logo.png" alt="logo ngai vàng điện ảnh">

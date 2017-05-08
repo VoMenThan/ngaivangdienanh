@@ -112,25 +112,35 @@ html, body {
   background-attachment: fixed;
   background-size: 100% 100%; }
 
+.intro-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
 /*css logo*/
 .logo-nvda {
   padding-top: 20px; }
   .logo-nvda img {
-    width: 350px; }
+    width: 500px; }
 
 .logo-nvda, .slider-nvda {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   text-align: center; }
   .logo-nvda .mg-aut, .slider-nvda .mg-aut {
     margin: auto;
     display: block; }
   .logo-nvda .regular, .slider-nvda .regular {
-    width: 600px;
-    height: 300px;
+    width: 1000px;
+    height: 500px;
     margin: auto; }
     .logo-nvda .regular img, .slider-nvda .regular img {
-      width: 600px;
-      height: 300px; }
+      width: 1000px;
+      height: 500px;
+      display: block; }
 
 /*css title-bg*/
 .title-bg {
@@ -193,7 +203,7 @@ nav {
     nav .menu-top-scroll .btn-close {
       display: none; }
   nav .menu-detail {
-    width: 130px;
+    width: 190px;
     text-align: center; }
   nav .logo-nav-nvda {
     height: 70px;
@@ -712,8 +722,43 @@ footer {
 
   .content-left .avatar-candidates-detail .avatar {
     width: 400px; } }
+@media only screen and (max-width: 1600px) {
+  /*intro css*/
+  .logo-nvda, .slider-nvda {
+    margin-bottom: 40px; }
+    .logo-nvda .regular, .slider-nvda .regular {
+      width: 800px;
+      height: 400px; }
+      .logo-nvda .regular img, .slider-nvda .regular img {
+        width: 800px;
+        height: 400px; }
+
+  nav .menu-detail {
+    width: 160px; }
+
+  .logo-nvda img {
+    width: 450px; }
+
+  /*end css intro*/ }
 /*css 1440*/
 @media only screen and (max-width: 1440px) {
+  /*intro css*/
+  .logo-nvda, .slider-nvda {
+    margin-bottom: 40px; }
+    .logo-nvda .regular, .slider-nvda .regular {
+      width: 600px;
+      height: 300px; }
+      .logo-nvda .regular img, .slider-nvda .regular img {
+        width: 600px;
+        height: 300px; }
+
+  nav .menu-detail {
+    width: 130px; }
+
+  .logo-nvda img {
+    width: 350px; }
+
+  /*end css intro*/
   .title-head .box-title-photos {
     width: 1400px; }
 
@@ -955,8 +1000,58 @@ footer {
 
   .box-show-candidates .label-image {
     bottom: 6px; } }
+@media only screen and (max-width: 640px) {
+  /*intro css*/
+  .logo-nvda, .slider-nvda {
+    margin-bottom: 40px; }
+    .logo-nvda .regular, .slider-nvda .regular {
+      width: 400px;
+      height: 200px; }
+      .logo-nvda .regular img, .slider-nvda .regular img {
+        width: 400px;
+        height: 200px; }
+
+  nav .menu-detail {
+    width: 100px; }
+
+  .menu-detail a {
+    width: 100px; }
+
+  .logo-nvda img {
+    width: 250px; }
+
+  .title-bg .box-title .thi-sinh {
+    width: 175px;
+    background-size: 100%; }
+  .title-bg .box-title .du-thi {
+    width: 150px;
+    background-size: 100%; }
+  .title-bg .box-title .img-top {
+    height: 43px; }
+
+  /*end css intro*/ }
 /*css 480*/
 @media only screen and (max-width: 480px) {
+  /*intro css*/
+  .logo-nvda, .slider-nvda {
+    margin-bottom: 40px; }
+    .logo-nvda .regular, .slider-nvda .regular {
+      width: 400px;
+      height: 200px; }
+      .logo-nvda .regular img, .slider-nvda .regular img {
+        width: 400px;
+        height: 200px; }
+
+  nav .menu-detail {
+    width: 100px; }
+
+  .menu-detail a {
+    width: 100px; }
+
+  .logo-nvda img {
+    width: 250px; }
+
+  /*end css intro*/
   .box-image-show .slider-show {
     margin-bottom: 50px; }
 
@@ -972,15 +1067,6 @@ footer {
 
   .logo-nvda img {
     width: 200px; }
-
-  .logo-nvda .regular, .slider-nvda .regular {
-    width: 95%;
-    height: 200px;
-    margin: auto; }
-    .logo-nvda .regular img, .slider-nvda .regular img {
-      width: 100%;
-      height: 200px;
-      margin: auto; }
 
   .title-bg .box-title .du-thi {
     width: 150px;
@@ -1199,9 +1285,23 @@ footer {
     bottom: 3px; }
 
   .box-show-candidates .label-image {
-    bottom: 4px; } }
+    bottom: 4px; }
+
+  .intro-main nav .menu-top-scroll {
+    top: -190px; } }
 /*css 320*/
 @media only screen and (max-width: 320px) {
+  /*intro css*/
+  .logo-nvda, .slider-nvda {
+    margin-bottom: 40px; }
+    .logo-nvda .regular, .slider-nvda .regular {
+      width: 300px;
+      height: 150px; }
+      .logo-nvda .regular img, .slider-nvda .regular img {
+        width: 300px;
+        height: 150px; }
+
+  /*end css intro*/
   .intro-video .my-video-dimensions {
     height: 300px; }
 
@@ -1257,7 +1357,6 @@ footer {
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
-      top: -20px;
       right: 0;
       background: #fff;
       z-index: 999;
