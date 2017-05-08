@@ -538,9 +538,10 @@ footer {
 
 .box-image-show .img-show {
   width: 100%;
-  height: 700px;
-  background: #c6c4c5;
   margin-bottom: 40px; }
+  .box-image-show .img-show .img-big {
+    width: 100%;
+    display: block; }
 .box-image-show .slider-show {
   display: -webkit-box;
   display: -webkit-flex;
@@ -552,12 +553,13 @@ footer {
   justify-content: center;
   margin-bottom: 100px; }
   .box-image-show .slider-show .box-show-small {
-    background: #c6c4c5;
     width: 20%;
-    height: 170px;
     margin-right: 40px; }
     .box-image-show .slider-show .box-show-small:last-child {
       margin-right: 0; }
+    .box-image-show .slider-show .box-show-small img {
+      display: block;
+      width: 100%; }
 
 .content-images {
   display: -webkit-box;
@@ -689,6 +691,9 @@ footer {
 
 /*css 1680*/
 @media only screen and (max-width: 1680px) {
+  .title-head .box-title-photos {
+    width: 1500px; }
+
   .box-content-news .news-box .img-news {
     width: 700px;
     height: 400px;
@@ -709,6 +714,9 @@ footer {
     width: 400px; } }
 /*css 1440*/
 @media only screen and (max-width: 1440px) {
+  .title-head .box-title-photos {
+    width: 1400px; }
+
   .news-section {
     padding: 0 60px 0 160px; }
     .news-section .title-content-news {
@@ -771,11 +779,14 @@ footer {
     width: 360px; } }
 /*css reponse 1280*/
 @media only screen and (max-width: 1280px) {
+  .title-head .box-title-photos {
+    width: 1100px; }
+
   .box-content-news .news-box .content-right {
     padding-right: 0; }
 
   .photo-section {
-    width: 1200px; }
+    width: 1100px; }
     .photo-section .box-round .round {
       width: 122px; }
 
@@ -819,6 +830,13 @@ footer {
     width: 80%; } }
 /*css response ipad*/
 @media only screen and (max-width: 768px) {
+  .title-head .box-title-photos {
+    width: 100%; }
+
+  .box-image-show {
+    width: 95%;
+    margin: auto; }
+
   .content {
     padding: 0 100px; }
 
@@ -933,6 +951,9 @@ footer {
     bottom: 6px; } }
 /*css 480*/
 @media only screen and (max-width: 480px) {
+  .box-image-show .slider-show {
+    margin-bottom: 50px; }
+
   .title-bg {
     padding-bottom: 20px; }
 
