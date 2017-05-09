@@ -54,7 +54,7 @@
         </div>
     </article>
 </header>
-<section>
+<section class="max-width-1200">
     <article>
         <div class="content">
             <p>

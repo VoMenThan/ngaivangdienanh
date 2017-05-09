@@ -82,46 +82,51 @@
     <article>
         <div class="box-image-show-candidates">
             <div class="img-show-candidates lable-possiton">
-                <img src="images/slider.jpg" alt="">
+                <img src="images/13.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="slider-show-candidates">
                 <div class="box-show-candidates lable-possiton">
-                    <img src="images/slider.jpg" alt="">
+                    <img src="images/20.jpg" alt="">
                     <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
                 </div>
                 <div class="box-show-candidates lable-possiton">
-                    <img src="images/slider.jpg" alt="">
+                    <img src="images/20.jpg" alt="">
                     <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
                 </div>
             </div>
         </div>
         <div class="content-images">
             <div class="image-album lable-possiton">
-                <img src="images/slider.jpg" alt="">
+                <img src="images/21.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="image-album lable-possiton">
-                <img src="images/slider.jpg" alt="">
+                <img src="images/25.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="image-album lable-possiton">
-                <img src="images/slider.jpg" alt="">
+                <img src="images/26.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="image-album lable-possiton">
+                <img src="images/26.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="image-album lable-possiton">
+                <img src="images/26.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="image-album lable-possiton">
+                <img src="images/26.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="image-album lable-possiton">
+                <img src="images/26.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
             <div class="image-album lable-possiton">
+                <img src="images/26.jpg" alt="">
                 <div class="label-image">Vòng 1 | Ngày 25/04/2017</div>
             </div>
         </div>

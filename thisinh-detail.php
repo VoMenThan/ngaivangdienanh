@@ -51,10 +51,16 @@
         </ul>
         <img class="btn-menu" src="images/btn-menu.png" alt="menu">
     </nav>
-    <article class="title-head">
+
         <div class="row-bar"></div>
-        <div class="label-head">Thí Sinh</div>
-        <div class="box-title-photos"></div>
+        <div id="fixx" class="label-head" ><a style="color:#e4cb57" href="http://ngaivangdienanh.com/dang-ky-du-thi">Dự Thi</a></div>
+        <div id="fixc" class="label-head" ><a style="color:#e4cb57" href="http://ngaivangdienanh.com/dang-ky-du-thi">Dự Thi</a></div>
+        <div id="fixf" class="label-head" ><a style="color:#e4cb57" herf ="http://ngaivangdienanh.com/danhsachthisinh">Thí Sinh</a></div>
+        <div id="fixd" class="label-head"><a style="color:#e4cb57" href="http://ngaivangdienanh.com/danhsachthisinh">Thí Sinh</a></div>
+    <article class="title-head">
+        <div class="box-title-photos">
+            <img src="http://ngaivangdienanh.com/images/qc-top.jpg" alt="">
+        </div>
     </article>
 </header>
 <section class="photo-section">
@@ -81,7 +87,19 @@
     </ul>
     <div class="content-left">
         <div class="avatar-candidates-detail">
-            <img class="avatar" src="images/avatar.jpg" alt="">
+            <div class="slider-nvda">
+                <div class="regular slider">
+                    <div>
+                        <img src="images/avatar.jpg">
+                    </div>
+                    <div>
+                        <img src="images/avatar.jpg">
+                    </div>
+                    <div>
+                        <img src="images/avatar.jpg">
+                    </div>
+                </div>
+            </div>
             <span class="full-name">Phan Hương Ly</span>
         </div>
         <ul class="info-candi">
@@ -98,12 +116,15 @@
     </div>
     <div class="content-right">
         <div class="box-img">
-            <img src="images/05.jpg" alt="">
+<!--            <img src="images/05.jpg" alt="">-->
+            <iframe width="80%" height="300px" style="margin: auto; display: block" src="https://www.youtube.com/embed/EFZKCs5XJ3o">
+            </iframe>
         </div>
     </div>
     <div class="clear-fix"></div>
 </section>
 <footer>
+    <div class="max-width-1200">
     <div class="box-footer">
         <h3>Ban Tổ Chức</h3>
         <a href="#"><img class="img-logo-organize" src="images/cty-sieu-nhan-viet.png" alt=""></a>
@@ -127,9 +148,12 @@
         <a href="#" class="logo-dornor"><img src="images/icon-cat.png" alt="Nhà tài trợ"></a>
         <a href="#" class="logo-dornor"><img src="images/icon-cat.png" alt="Nhà tài trợ"></a>
     </div>
-    <div class="copyright">
-        <div class="copy">All right reserved Dehaan Media.</div>
-        <div class="copy">Giấy phép số BCT/123445/78</div>
+    </div>
+    <div class="max-footer">
+        <div class="copyright">
+            <div class="copy">All right reserved Dehaan Media.</div>
+            <div class="copy">Giấy phép số BCT/123445/78</div>
+        </div>
     </div>
 </footer>
 <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -172,6 +196,22 @@
             $(window).scroll(sticky_relocate);
             sticky_relocate();
         });
+    });
+    $(window).scroll(function () {
+        if (($(window).scrollTop() > $('.intro-video').height())) {
+            $("#fixc").show();
+            $("#fixx").hide();
+        } else {
+            $("#fixc").hide();
+            $("#fixx").show();
+        }
+        if (($(window).scrollTop() > $('.intro-video').height())) {
+            $("#fixd").show();
+            $("#fixf").hide();
+        } else {
+            $("#fixd").hide();
+            $("#fixf").show();
+        }
     });
 </script>
 </body>

@@ -54,7 +54,9 @@
     <article class="title-head">
         <div class="row-bar"></div>
         <div class="label-head">Thí Sinh</div>
-        <div class="box-title-news"></div>
+        <div class="box-title-photos">
+            <img src="http://ngaivangdienanh.com/images/qc-top.jpg" alt="">
+        </div>
     </article>
 </header>
 <section class="news-section">

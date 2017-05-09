@@ -103,9 +103,21 @@ ul li {
   src: url("../fonts/UVFAleo.woff") format("woff"), url("../fonts/UVFAleo.ttf") format("truetype"), url("../fonts/UVFAleo.svg#UVFAleo") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'HLT AphroditeSlimStylistic';
+  src: url("../fonts/HLTAphroditeSlimStylistic.eot");
+  src: local("Γÿ║"), url("../fonts/HLTAphroditeSlimStylistic.woff") format("woff"), url("../fonts/HLTAphroditeSlimStylistic.ttf") format("truetype"), url("../fonts/HLTAphroditeSlimStylistic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'VNF-Futura';
+  src: url("../fonts/VNF-Futura.eot");
+  src: local("Γÿ║"), url("../fonts/VNF-Futura.woff") format("woff"), url("../fonts/VNF-Futura.ttf") format("truetype"), url("../fonts/VNF-Futura.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 html, body {
   height: 100%;
-  font-family: "UVF FuturaLT", Helvetica, arial, sans-serif;
+  font-family: "VNF-Futura", Helvetica, arial, sans-serif;
   background: url(../images/bg_image.jpg) repeat;
   color: #e4cb57;
   background-repeat: no-repeat;
@@ -128,7 +140,7 @@ html, body {
     width: 500px; }
 
 .logo-nvda, .slider-nvda {
-  margin-bottom: 60px;
+  margin-bottom: 15px;
   text-align: center; }
   .logo-nvda .mg-aut, .slider-nvda .mg-aut {
     margin: auto;
@@ -141,6 +153,14 @@ html, body {
       width: 1000px;
       height: 500px;
       display: block; }
+
+.content-left .logo-nvda .regular, .content-left .slider-nvda .regular {
+  width: 90%;
+  height: auto;
+  margin: auto; }
+.content-left .slider-nvda .regular img {
+  width: 100%;
+  height: auto; }
 
 /*css title-bg*/
 .title-bg {
@@ -187,7 +207,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 50px;
-  display: block; }
+  display: block;
+  margin: auto; }
   nav .btn-menu {
     display: none; }
   nav .menu-top-scroll {
@@ -248,7 +269,9 @@ nav {
 
 .title-head {
   position: relative;
-  margin-bottom: 50px; }
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 1200px; }
   .title-head .row-bar {
     height: 40px;
     width: 100%;
@@ -265,7 +288,8 @@ nav {
     text-align: center;
     font-size: 40px;
     width: 50%;
-    margin: auto; }
+    margin: auto;
+    font-family: "HLT AphroditeSlimStylistic", Helvetica, arial, sans-serif; }
   .title-head .box-title-news {
     height: 70px;
     background: #c6c4c5;
@@ -274,20 +298,21 @@ nav {
 
 /*css tin tß╗⌐c*/
 .news-section {
-  padding: 0 60px 0 160px; }
+  margin: auto;
+  max-width: 1200px; }
   .news-section .title-content-news {
     font-size: 50px;
     border-bottom: 3px solid #e4cb57;
+    font-family: "HLT AphroditeSlimStylistic", Helvetica, arial, sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 430px; }
 
 .box-content-news {
-  width: calc(100% - 430px);
+  width: 75%;
   float: left;
   background: rgba(131, 131, 131, 0.7);
   min-height: 500px;
-  margin-right: 30px;
   margin-bottom: 30px; }
   .box-content-news a {
     display: block; }
@@ -307,17 +332,16 @@ nav {
       padding-bottom: 20px; }
     .box-content-news .news-box .img-news {
       float: left;
-      width: 800px;
-      height: 500px;
+      width: 60%;
       padding-right: 30px; }
     .box-content-news .news-box .content-right {
       float: left;
-      width: calc(100% - 800px);
-      height: 500px;
+      width: 40%;
       overflow: hidden;
       text-overflow: ellipsis;
       line-height: 2.8;
-      padding-right: 30px; }
+      padding-right: 30px;
+      text-align: justify; }
     .box-content-news .news-box .view-detail {
       clear: both;
       padding-top: 20px; }
@@ -332,12 +356,12 @@ nav {
 
 aside {
   float: left;
-  width: 400px; }
+  width: 25%;
+  padding-left: 20px; }
   aside .box-ad-news {
-    background: rgba(198, 197, 196, 0.7);
     width: 100%;
-    margin-bottom: 20px;
-    padding: 15px; }
+    height: 100%;
+    margin-bottom: 20px; }
   aside img {
     width: 100%; }
 
@@ -373,9 +397,9 @@ aside {
 
 /*css content*/
 .content {
-  padding: 0 180px;
   line-height: 2.3;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: justify; }
   .content h3 {
     font-size: 20px; }
   .content p {
@@ -472,13 +496,16 @@ footer {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    background: #e4cb57;
+    max-width: 1200px;
     padding: 5px 10px;
-    color: #000; }
+    color: #000;
+    margin: auto; }
     footer .copyright .copy {
       width: 50%; }
       footer .copyright .copy:last-child {
         text-align: right; }
+  footer .max-footer {
+    background: #e4cb57; }
 
 /*form ─æ─âng k├╜*/
 .sign-up {
@@ -522,25 +549,26 @@ footer {
 
 /*css page h├¼nh ß║únh*/
 .title-head .box-title-photos {
-  height: 140px;
-  background: #c6c4c5;
-  width: 1700px;
   margin: auto; }
+  .title-head .box-title-photos img {
+    width: 100%; }
 
 .photo-section {
-  width: 1700px;
+  width: 1200px;
   margin: auto;
   margin-bottom: 50px; }
   .photo-section .title-content-photos {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-right: 430px; }
+    margin-right: 430px;
+    font-family: "HLT AphroditeSlimStylistic", Helvetica, arial, sans-serif; }
   .photo-section .title-image {
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-family: "HLT AphroditeSlimStylistic", Helvetica, arial, sans-serif; }
 
 .album-photo-candi .box-round {
   margin: auto;
@@ -585,19 +613,22 @@ footer {
     margin-bottom: 70px;
     margin-right: 60px; }
     .content-images .image-album img {
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
     .content-images .image-album:nth-child(3n) {
       margin-right: 0; }
 
 /* css hinh anh thi sinh vong loai */
 .album-photo-candi .label-image {
   position: absolute;
-  bottom: 4px;
+  bottom: 0;
   width: 100%;
   background: #000000;
   opacity: 0.5;
   text-align: left;
   padding: 20px; }
+.album-photo-candi .img-show-candidates .label-image {
+  bottom: 4px !important; }
 
 .lable-possiton {
   position: relative; }
@@ -608,7 +639,8 @@ footer {
   margin-bottom: 160px;
   overflow: hidden; }
   .box-image-show-candidates .img-show-candidates img {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
 .box-image-show-candidates .slider-show-candidates {
   margin-bottom: 180px;
   display: -webkit-box;
@@ -619,7 +651,8 @@ footer {
     width: 50%;
     margin-right: 45px; }
     .box-image-show-candidates .slider-show-candidates .box-show-candidates img {
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
     .box-image-show-candidates .slider-show-candidates .box-show-candidates:last-child {
       margin-right: 0; }
 
@@ -642,7 +675,7 @@ footer {
     justify-content: center;
     position: absolute;
     top: 0;
-    right: 0; }
+    right: 40px; }
     .photo-section .box-round .round {
       display: block;
       list-style-type: none;
@@ -675,16 +708,16 @@ footer {
       width: 450px; }
     .content-left .avatar-candidates-detail .full-name {
       font-size: 50px;
-      word-break: break-all;
-      height: 200px;
-      width: 150px;
-      position: absolute;
-      right: 60px;
-      top: 30%; }
+      width: auto;
+      position: static;
+      display: block;
+      text-align: center; }
   .content-left .introduce {
     margin-bottom: 10px;
-    width: 50%;
-    line-height: 1.8; }
+    width: 100%;
+    line-height: 1.8;
+    text-align: justify;
+    padding-right: 25px; }
 
 .content-right {
   width: 60%;
@@ -694,6 +727,44 @@ footer {
     margin: auto;
     display: block; }
 
+#fixx {
+  width: auto;
+  position: absolute;
+  left: 0px;
+  bottom: 230px;
+  background: black;
+  padding: 10px 20px;
+  opacity: 0.8;
+  display: block; }
+
+#fixc {
+  position: fixed;
+  top: 150px;
+  height: 40px;
+  z-index: 9999;
+  width: auto;
+  background: black;
+  padding: 10px 20px; }
+
+#fixf {
+  width: auto;
+  position: absolute;
+  left: 0px;
+  bottom: 170px;
+  background: black;
+  padding: 10px 20px;
+  opacity: 0.8;
+  display: none; }
+
+#fixd {
+  position: fixed;
+  top: 200px;
+  height: 40px;
+  z-index: 9999;
+  width: auto;
+  background: black;
+  padding: 10px 20px; }
+
 .clear-fix:after {
   content: '';
   display: table;
@@ -701,21 +772,17 @@ footer {
 
 /*css 1680*/
 @media only screen and (max-width: 1680px) {
-  .title-head .box-title-photos {
-    width: 1500px; }
-
   .box-content-news .news-box .img-news {
-    width: 700px;
-    height: 400px;
+    width: 60%;
     padding-right: 20px; }
   .box-content-news .news-box .content-right {
     float: left;
-    width: calc(100% - 700px);
+    width: 40%;
     height: 400px;
     padding-right: 20px; }
 
   .photo-section {
-    width: 1500px; }
+    width: 1200px; }
 
   .content-left .avatar-candidates-detail .full-name {
     right: 30px; }
@@ -724,14 +791,12 @@ footer {
     width: 400px; } }
 @media only screen and (max-width: 1600px) {
   /*intro css*/
-  .logo-nvda, .slider-nvda {
-    margin-bottom: 40px; }
-    .logo-nvda .regular, .slider-nvda .regular {
+  .logo-nvda .regular, .slider-nvda .regular {
+    width: 800px;
+    height: 400px; }
+    .logo-nvda .regular img, .slider-nvda .regular img {
       width: 800px;
       height: 400px; }
-      .logo-nvda .regular img, .slider-nvda .regular img {
-        width: 800px;
-        height: 400px; }
 
   nav .menu-detail {
     width: 160px; }
@@ -743,14 +808,12 @@ footer {
 /*css 1440*/
 @media only screen and (max-width: 1440px) {
   /*intro css*/
-  .logo-nvda, .slider-nvda {
-    margin-bottom: 40px; }
-    .logo-nvda .regular, .slider-nvda .regular {
+  .logo-nvda .regular, .slider-nvda .regular {
+    width: 600px;
+    height: 300px; }
+    .logo-nvda .regular img, .slider-nvda .regular img {
       width: 600px;
       height: 300px; }
-      .logo-nvda .regular img, .slider-nvda .regular img {
-        width: 600px;
-        height: 300px; }
 
   nav .menu-detail {
     width: 130px; }
@@ -759,9 +822,6 @@ footer {
     width: 350px; }
 
   /*end css intro*/
-  .title-head .box-title-photos {
-    width: 1400px; }
-
   .news-section {
     padding: 0 60px 0 160px; }
     .news-section .title-content-news {
@@ -792,12 +852,11 @@ footer {
         border-bottom: 3px solid #e4cb57; }
       .box-content-news .news-box .img-news {
         float: left;
-        width: 430px;
-        height: 300px;
+        width: 60%;
         padding-right: 30px; }
       .box-content-news .news-box .content-right {
         float: left;
-        width: calc(100% - 430px);
+        width: 40%;
         height: 200px;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -818,35 +877,35 @@ footer {
 
   /*css thi sinh image*/
   .photo-section {
-    width: 1400px; }
+    width: 1200px; }
 
   .content-left .avatar-candidates-detail .avatar {
     width: 360px; } }
 @media only screen and (max-width: 1366px) {
-  .title-head .box-title-photos {
-    width: 1300px; }
-
   .photo-section {
-    width: 1300px; } }
+    width: 1200px; } }
 /*css reponse 1280*/
 @media only screen and (max-width: 1280px) {
-  .title-head .box-title-photos {
-    width: 1100px; }
+  .photo-section .box-round {
+    right: 0; }
 
   .box-content-news .news-box .content-right {
     padding-right: 0; }
 
   .photo-section {
-    width: 1100px; }
+    width: 1200px; }
     .photo-section .box-round .round {
       width: 122px; }
 
   .content-left .avatar-candidates-detail .avatar {
     width: 295px; }
+  .content-left .avatar-candidates-detail .full-name {
+    font-size: 30px;
+    width: auto; }
 
   .content-right .box-img img {
     width: 80%; } }
-@media only screen and (max-width: 1065px) {
+@media only screen and (max-width: 1080px) {
   .box-content-news .news-box {
     margin: 20px 20px 30px 20px;
     padding: 20px; }
@@ -870,12 +929,7 @@ footer {
   .content-left .avatar-candidates-detail .avatar {
     width: 260px; }
   .content-left .avatar-candidates-detail .full-name {
-    font-size: 40px;
-    word-break: break-all;
-    width: 120px;
-    position: absolute;
-    right: 10px;
-    top: 15%; }
+    font-size: 40px; }
 
   .content-right .box-img img {
     width: 80%; } }
@@ -1002,14 +1056,12 @@ footer {
     bottom: 6px; } }
 @media only screen and (max-width: 640px) {
   /*intro css*/
-  .logo-nvda, .slider-nvda {
-    margin-bottom: 40px; }
-    .logo-nvda .regular, .slider-nvda .regular {
+  .logo-nvda .regular, .slider-nvda .regular {
+    width: 400px;
+    height: 200px; }
+    .logo-nvda .regular img, .slider-nvda .regular img {
       width: 400px;
       height: 200px; }
-      .logo-nvda .regular img, .slider-nvda .regular img {
-        width: 400px;
-        height: 200px; }
 
   nav .menu-detail {
     width: 100px; }
@@ -1033,14 +1085,12 @@ footer {
 /*css 480*/
 @media only screen and (max-width: 480px) {
   /*intro css*/
-  .logo-nvda, .slider-nvda {
-    margin-bottom: 40px; }
-    .logo-nvda .regular, .slider-nvda .regular {
+  .logo-nvda .regular, .slider-nvda .regular {
+    width: 400px;
+    height: 200px; }
+    .logo-nvda .regular img, .slider-nvda .regular img {
       width: 400px;
       height: 200px; }
-      .logo-nvda .regular img, .slider-nvda .regular img {
-        width: 400px;
-        height: 200px; }
 
   nav .menu-detail {
     width: 100px; }
@@ -1235,8 +1285,6 @@ footer {
       line-height: 60px;
       margin-bottom: 10px; }
 
-  .content-left .introduce {
-    width: 80%; }
   .content-left .avatar-candidates-detail .avatar {
     width: 350px; }
   .content-left .avatar-candidates-detail .full-name {
@@ -1288,18 +1336,19 @@ footer {
     bottom: 4px; }
 
   .intro-main nav .menu-top-scroll {
-    top: -190px; } }
+    top: -190px; }
+
+  .content-right .video-content-right {
+    height: 230px; } }
 /*css 320*/
 @media only screen and (max-width: 320px) {
   /*intro css*/
-  .logo-nvda, .slider-nvda {
-    margin-bottom: 40px; }
-    .logo-nvda .regular, .slider-nvda .regular {
+  .logo-nvda .regular, .slider-nvda .regular {
+    width: 300px;
+    height: 150px; }
+    .logo-nvda .regular img, .slider-nvda .regular img {
       width: 300px;
       height: 150px; }
-      .logo-nvda .regular img, .slider-nvda .regular img {
-        width: 300px;
-        height: 150px; }
 
   /*end css intro*/
   .intro-video .my-video-dimensions {
@@ -1391,9 +1440,14 @@ footer {
   .content-left .avatar-candidates-detail .full-name {
     font-size: 30px; }
   .content-left .introduce {
-    width: 100%; } }
-.page-number ul a {
-  width: 24px; }
+    width: 100%;
+    padding-right: 0; }
+
+  .page-number ul a {
+    width: 24px; } }
+.max-width-1200 {
+  max-width: 1200px;
+  margin: auto; }
 
 /*css hinh anh*/
 .jssort01 .p {
