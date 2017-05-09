@@ -54,7 +54,7 @@
 </header>
 <section>
     <article>
-        <div class="content sign-up">
+        <div class="sign-up">
             <form name="signupForm" method="post" action="" id="signupForm">
                     <div class="form-row">
                         <label for="sigup_name" class="required">Họ tên</label>
