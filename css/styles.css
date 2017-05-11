@@ -404,7 +404,8 @@ aside {
   color: #ffffff;
   text-align: justify;
   width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+  overflow-y: scroll; }
   .content h3 {
     font-size: 20px; }
   .content p {
@@ -457,6 +458,65 @@ aside {
     position: absolute; }
   .hashtag .tag-name {
     display: inline-block; }
+
+/*scroll bar*/
+a {
+  color: #074E8C; }
+
+.scrollbar {
+  margin-left: 30px;
+  float: left;
+  height: 300px;
+  width: 65px;
+  background: #F5F5F5;
+  overflow-y: scroll;
+  margin-bottom: 25px; }
+
+.force-overflow {
+  min-height: 450px; }
+
+.box-scroll-bar {
+  text-align: center;
+  width: 500px;
+  margin: auto; }
+
+/*
+ *  STYLE 1
+ */
+a {
+  color: #074E8C; }
+
+.scrollbar-scroll {
+  float: left;
+  height: 500px;
+  width: 100%;
+  overflow-y: scroll;
+  margin-bottom: 25px; }
+
+.force-overflow {
+  min-height: 450px;
+  margin-right: 10px; }
+
+.box-scroll-bar {
+  text-align: center;
+  margin: auto;
+  height: 500px;
+  width: 100%;
+  padding: 0 100px; }
+
+.scrollbar-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5; }
+
+.scrollbar-scroll::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+.scrollbar-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555; }
 
 /*css footer*/
 footer {
@@ -950,9 +1010,6 @@ footer {
   .box-image-show {
     width: 95%;
     margin: auto; }
-
-  .content {
-    padding: 0 100px; }
 
   .hashtag {
     padding: 100px 100px; }
@@ -1458,6 +1515,7 @@ footer {
   max-width: 1200px;
   margin: auto; }
 
+/*css back to top*/
 #myBtn {
   display: none;
   position: fixed;
@@ -1475,6 +1533,40 @@ footer {
 
 #myBtn:hover {
   background-color: #555; }
+
+/*css popup*/
+.box-popup {
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0; }
+  .box-popup .popup-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px; }
+    .box-popup .popup-main .btn-close {
+      position: absolute;
+      right: 2px;
+      top: 2px;
+      width: 30px;
+      height: 30px;
+      background: url("../images/btn-close.png");
+      background-size: 100% 100%;
+      cursor: pointer; }
 
 /*css hinh anh*/
 .jssort01 .p {

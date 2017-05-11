@@ -8,12 +8,12 @@
     <title>Intro</title>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link href="css/video-js.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+<!--    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">-->
     <link rel="stylesheet" href="css/styles.css">
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<!--    <script src="js/jquery.min.js"></script>-->
+<!--    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>-->
 </head>
 <body>
 <header>
@@ -60,44 +60,46 @@
 </header>
 <section class="max-width-1200">
     <article>
-        <div class="box-content-scroll content-list mCustomScrollbar _mCS_11 mCS-autoHide">
-        <div class="content">
-            <p>
-                Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
-            </p>
-            <p>
-                Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
-            </p>
-            <p>
-                Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
-            </p>
-            <p>
-                Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
-            </p>
-            <p>
-                Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
-            </p>
-            <p>
-                Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
-            </p>
-            <p>
-                Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
-            </p>
-            <p>
-                Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
-            </p>
-            <p>
-                Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
-            </p>
-            <p>
-                Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
-            </p>
-            <p>
-                Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
-            </p>
-            <p>
-                Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
-            </p>
+        <div class="box-scroll-bar">
+        <div class="content scrollbar-scroll">
+            <div class="force-overflow">
+                <p>
+                    Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
+                </p>
+                <p>
+                    Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
+                </p>
+                <p>
+                    Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
+                </p>
+                <p>
+                    Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
+                </p>
+                <p>
+                    Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
+                </p>
+                <p>
+                    Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
+                </p>
+                <p>
+                    Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
+                </p>
+                <p>
+                    Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
+                </p>
+                <p>
+                    Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
+                </p>
+                <p>
+                    Nhằm tìm kiếm những tài năng cho nền nghệ thuật thứ 7, trải qua 5 mùa thi chương trình "Gương mặt sân khấu điện ảnh triển vọng"đã phát hiện và cung cấp cho nền sân khấu - điện ảnh những gương mặt sáng giá. Mùa thứ 6, với sự kết hợp của Công ty Siêu Nhân Việt và Công ty Dihaan Media sẽ đưa cuộc thi "Gương mặt sân khấu - điện ảnh triển vọng 2017" mang tính chuyên nghiệp cao, nơi thí sinh thể hiện sự trải nghiệm sân khấu - điện ảnh, tài năng cá nhân, sựbùng cháy đam mê.
+                </p>
+                <p>
+                    Cuộc thi "Gương mặt sân khấu điện ảnh triển vọng" đã trải qua sự chuyển mình qua rất nhiều giai đoạn từ các cuộc thi, chương trình đã đào tạo và tìm kiếm ra nhiều gương mặt thành danh từ đây như Ngân Khánh, Minh Luân, Lương Thế Thành, Khương Ngọc...v..v...
+                </p>
+                <p>
+                    Đến năm 201 3, chương trình đã chính thức được Sở Văn Hóa TPHCM phê duyệt là bản quyền chính thức thuộc sở hữu của công tyTNHH Dịch vụ Siêu Nhân Việt.
+                </p>
+            </div>
         </div>
         </div>
         <div class="hashtag">
@@ -141,7 +143,8 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 <div class="box-popup">
     <div class="popup-main">
-        <span class="btn-close"></span>
+        <span class="btn-close">
+        </span>
         <img src="images/slider.jpg" alt="">
     </div>
 </div>
@@ -169,6 +172,9 @@
         });
         $('.close-x').click(function () {
             $('.menu-top-scroll').fadeOut();
+        })
+        $('.btn-close').click(function () {
+            $('.box-popup').fadeOut();
         })
         /*js nav scroll top*/
         function sticky_relocate() {
